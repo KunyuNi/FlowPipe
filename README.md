@@ -8,7 +8,7 @@
 
 > \> **FlowPipe** is a unified framework that reformulates data preparation pipeline synthesis as **conditional probabilistic flow generation**. By leveraging **C-GFlowNets** and **LLM-driven Deep Semantic Modulation**, it addresses the structural and semantic limitations of traditional reinforcement learning approaches.
 
-![FlowPipe System Overview](.\figure\workflow.jpg)
+![FlowPipe System Overview](./figure/workflow.jpg)
 
 ---
 
@@ -164,4 +164,5 @@ We compare FlowPipe against the following state-of-the-art systems:
 - `deterministic.py`: Settings to ensure reproducibility.
 - `comp.py`: Core components, including models and algorithm implementations.
 - `util.py`: Helper functions for filesystem and memory management.
+
 
