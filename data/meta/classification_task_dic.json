@@ -1,0 +1,2467 @@
+{
+    "0": {
+        "dataset": "22000-scotch-whisky-reviews",
+        "csv_file": "scotch_review.csv",
+        "label": "2",
+        "model": "LogisticRegression",
+        "task_name": "22000-scotch-whisky-reviews_LogisticRegression_2"
+    },
+    "1": {
+        "dataset": "aashnaprasad_heart-disease-detection-dataset",
+        "csv_file": "datasets_33180_43520_heart.csv",
+        "label": "13",
+        "model": "RandomForestClassifier",
+        "task_name": "aashnaprasad_heart-disease-detection-dataset_RandomForestClassifier_13"
+    },
+    "2": {
+        "dataset": "abalone-dataset",
+        "csv_file": "abalone.csv",
+        "label": "8",
+        "model": "RandomForestClassifier",
+        "task_name": "abalone-dataset_RandomForestClassifier_8"
+    },
+    "3": {
+        "dataset": "abcsds_pokemon",
+        "csv_file": "Pokemon.csv",
+        "label": "12",
+        "model": "RandomForestClassifier",
+        "task_name": "abcsds_pokemon_RandomForestClassifier_12"
+    },
+    "4": {
+        "dataset": "abhinavralhan_titanic",
+        "csv_file": "train.csv",
+        "label": "1",
+        "model": "LogisticRegression",
+        "task_name": "abhinavralhan_titanic_LogisticRegression_1"
+    },
+    "5": {
+        "dataset": "abilashcheruvathur_bank-personal-loan-eligibility",
+        "csv_file": "Bank_Personal_Loan_Modelling.csv",
+        "label": "9",
+        "model": "KNeighborsClassifier",
+        "task_name": "abilashcheruvathur_bank-personal-loan-eligibility_KNeighborsClassifier_9"
+    },
+    "6": {
+        "dataset": "absenteeismatwork",
+        "csv_file": "Absenteeism_at_work.csv",
+        "label": "14",
+        "model": "SVC",
+        "task_name": "absenteeismatwork_SVC_14"
+    },
+    "7": {
+        "dataset": "adammaus_predicting-churn-for-bank-customers",
+        "csv_file": "Churn_Modelling.csv",
+        "label": "13",
+        "model": "RandomForestClassifier",
+        "task_name": "adammaus_predicting-churn-for-bank-customers_RandomForestClassifier_13"
+    },
+    "8": {
+        "dataset": "adult-census-income",
+        "csv_file": "adult.csv",
+        "label": "14",
+        "model": "RandomForestClassifier",
+        "task_name": "adult-census-income_RandomForestClassifier_14"
+    },
+    "9": {
+        "dataset": "adult-income-dataset",
+        "csv_file": "adult.csv",
+        "label": "14",
+        "model": "KNeighborsClassifier",
+        "task_name": "adult-income-dataset_KNeighborsClassifier_14"
+    },
+    "10": {
+        "dataset": "advertising",
+        "csv_file": "advertising.csv",
+        "label": "9",
+        "model": "KNeighborsClassifier",
+        "task_name": "advertising_KNeighborsClassifier_9"
+    },
+    "11": {
+        "dataset": "affablekarthik_titanic-survival-prediction",
+        "csv_file": "titanic_data.csv",
+        "label": "1",
+        "model": "LogisticRegression",
+        "task_name": "affablekarthik_titanic-survival-prediction_LogisticRegression_1"
+    },
+    "12": {
+        "dataset": "agirlcoding_all-space-missions-from-1957",
+        "csv_file": "Space_Corrected.csv",
+        "label": "8",
+        "model": "SVC",
+        "task_name": "agirlcoding_all-space-missions-from-1957_SVC_8"
+    },
+    "13": {
+        "dataset": "agirusampath_adult-dataset",
+        "csv_file": "adult.csv",
+        "label": "14",
+        "model": "RandomForestClassifier",
+        "task_name": "agirusampath_adult-dataset_RandomForestClassifier_14"
+    },
+    "14": {
+        "dataset": "ajay1735_hmeq-data",
+        "csv_file": "hmeq.csv",
+        "label": "0",
+        "model": "RandomForestClassifier",
+        "task_name": "ajay1735_hmeq-data_RandomForestClassifier_0"
+    },
+    "15": {
+        "dataset": "akram24_social-network-ads",
+        "csv_file": "Social_Network_Ads.csv",
+        "label": "4",
+        "model": "SVC",
+        "task_name": "akram24_social-network-ads_SVC_4"
+    },
+    "16": {
+        "dataset": "akshat0007_fetalhr",
+        "csv_file": "CTG.csv",
+        "label": "39",
+        "model": "DecisionTreeClassifier",
+        "task_name": "akshat0007_fetalhr_DecisionTreeClassifier_39"
+    },
+    "17": {
+        "dataset": "alamjane61_titanic-train",
+        "csv_file": "train.csv",
+        "label": "1",
+        "model": "LogisticRegression",
+        "task_name": "alamjane61_titanic-train_LogisticRegression_1"
+    },
+    "18": {
+        "dataset": "alhassanabdelglil_classification",
+        "csv_file": "Dataset_for_Classification.csv",
+        "label": "1",
+        "model": "RandomForestClassifier",
+        "task_name": "alhassanabdelglil_classification_RandomForestClassifier_1"
+    },
+    "19": {
+        "dataset": "alihussain1993_lower-back-pain-symptoms-datasetlabelled",
+        "csv_file": "Dataset_spine.csv",
+        "label": "12",
+        "model": "RandomForestClassifier",
+        "task_name": "alihussain1993_lower-back-pain-symptoms-datasetlabelled_RandomForestClassifier_12"
+    },
+    "20": {
+        "dataset": "aljarah_xAPI-Edu-Data",
+        "csv_file": "xAPI-Edu-Data.csv",
+        "label": "16",
+        "model": "RandomForestClassifier",
+        "task_name": "aljarah_xAPI-Edu-Data_RandomForestClassifier_16"
+    },
+    "21": {
+        "dataset": "altruistdelhite04_loan-prediction-problem-dataset",
+        "csv_file": "train_u6lujuX_CVtuZ9i.csv",
+        "label": "12",
+        "model": "RandomForestClassifier",
+        "task_name": "altruistdelhite04_loan-prediction-problem-dataset_RandomForestClassifier_12"
+    },
+    "22": {
+        "dataset": "amanwadhwa_wine-quality-from-chemical-properties",
+        "csv_file": "winequality.csv",
+        "label": "11",
+        "model": "RandomForestClassifier",
+        "task_name": "amanwadhwa_wine-quality-from-chemical-properties_RandomForestClassifier_11"
+    },
+    "23": {
+        "dataset": "analyze-helpdesk-tickets",
+        "csv_file": "WA_Fn-UseC_-IT-Help-Desk.csv",
+        "label": "9",
+        "model": "KNeighborsClassifier",
+        "task_name": "analyze-helpdesk-tickets_KNeighborsClassifier_9"
+    },
+    "24": {
+        "dataset": "andrewmvd_udemy-courses",
+        "csv_file": "udemy_courses.csv",
+        "label": "3",
+        "model": "SVC",
+        "task_name": "andrewmvd_udemy-courses_SVC_3"
+    },
+    "25": {
+        "dataset": "anidimma_winedataset",
+        "csv_file": "02_WineDataset.csv",
+        "label": "11",
+        "model": "DecisionTreeClassifier",
+        "task_name": "anidimma_winedataset_DecisionTreeClassifier_11"
+    },
+    "26": {
+        "dataset": "ankitshandilya_silhouette-of-vehicles-dataset",
+        "csv_file": "vehicle.csv",
+        "label": "18",
+        "model": "SVC",
+        "task_name": "ankitshandilya_silhouette-of-vehicles-dataset_SVC_18"
+    },
+    "27": {
+        "dataset": "annatshngryan_heart-csv",
+        "csv_file": "heart.csv",
+        "label": "13",
+        "model": "RandomForestClassifier",
+        "task_name": "annatshngryan_heart-csv_RandomForestClassifier_13"
+    },
+    "28": {
+        "dataset": "anshumansahu12_prediction-of-purchased-car",
+        "csv_file": "Social_Network_Ads.csv",
+        "label": "4",
+        "model": "KNeighborsClassifier",
+        "task_name": "anshumansahu12_prediction-of-purchased-car_KNeighborsClassifier_4"
+    },
+    "29": {
+        "dataset": "antoine62_hired",
+        "csv_file": "data_v1.0.csv",
+        "label": "12",
+        "model": "RandomForestClassifier",
+        "task_name": "antoine62_hired_RandomForestClassifier_12"
+    },
+    "30": {
+        "dataset": "anuragmishra2311_restaurant-reviews",
+        "csv_file": "Restaurant_Reviews.csv",
+        "label": "1",
+        "model": "LogisticRegression",
+        "task_name": "anuragmishra2311_restaurant-reviews_LogisticRegression_1"
+    },
+    "31": {
+        "dataset": "ashishs0ni_iris-dataset",
+        "csv_file": "Iris.csv",
+        "label": "5",
+        "model": "KNeighborsClassifier",
+        "task_name": "ashishs0ni_iris-dataset_KNeighborsClassifier_5"
+    },
+    "32": {
+        "dataset": "ashsid06_absentee",
+        "csv_file": "Absenteeism_at_work.csv",
+        "label": "14",
+        "model": "LogisticRegression",
+        "task_name": "ashsid06_absentee_LogisticRegression_14"
+    },
+    "33": {
+        "dataset": "ashutosh94_titanic-dataset",
+        "csv_file": "titanictrain.csv",
+        "label": "1",
+        "model": "SVC",
+        "task_name": "ashutosh94_titanic-dataset_SVC_1"
+    },
+    "34": {
+        "dataset": "ashwinlagji_absenteeism-at-work",
+        "csv_file": "Absenteeism_at_work.csv",
+        "label": "20",
+        "model": "SVC",
+        "task_name": "ashwinlagji_absenteeism-at-work_SVC_20"
+    },
+    "35": {
+        "dataset": "aungpyaeap_tictactoe-endgame-dataset-uci",
+        "csv_file": "tic-tac-toe-endgame.csv",
+        "label": "9",
+        "model": "DecisionTreeClassifier",
+        "task_name": "aungpyaeap_tictactoe-endgame-dataset-uci_DecisionTreeClassifier_9"
+    },
+    "36": {
+        "dataset": "avhikj_churn-predictions-personal",
+        "csv_file": "Churn_Predictions.csv",
+        "label": "13",
+        "model": "RandomForestClassifier",
+        "task_name": "avhikj_churn-predictions-personal_RandomForestClassifier_13"
+    },
+    "37": {
+        "dataset": "baguskurniawanadhi_iklancsv",
+        "csv_file": "Iklan_sosmed.csv",
+        "label": "4",
+        "model": "LogisticRegression",
+        "task_name": "baguskurniawanadhi_iklancsv_LogisticRegression_4"
+    },
+    "38": {
+        "dataset": "bank-marketing",
+        "csv_file": "bank.csv",
+        "label": "16",
+        "model": "RandomForestClassifier",
+        "task_name": "bank-marketing_RandomForestClassifier_16"
+    },
+    "39": {
+        "dataset": "bank-marketing-dataset",
+        "csv_file": "bank.csv",
+        "label": "16",
+        "model": "KNeighborsClassifier",
+        "task_name": "bank-marketing-dataset_KNeighborsClassifier_16"
+    },
+    "40": {
+        "dataset": "barelydedicated_bank-customer-churn-modeling",
+        "csv_file": "Churn_Modelling.csv",
+        "label": "13",
+        "model": "RandomForestClassifier",
+        "task_name": "barelydedicated_bank-customer-churn-modeling_RandomForestClassifier_13"
+    },
+    "41": {
+        "dataset": "barkhaverma_placement-data-full-class",
+        "csv_file": "Placement_data_full_class.csv",
+        "label": "14",
+        "model": "RandomForestClassifier",
+        "task_name": "barkhaverma_placement-data-full-class_RandomForestClassifier_14"
+    },
+    "42": {
+        "dataset": "barun2104_telecom-churn",
+        "csv_file": "telecom_churn.csv",
+        "label": "0",
+        "model": "RandomForestClassifier",
+        "task_name": "barun2104_telecom-churn_RandomForestClassifier_0"
+    },
+    "43": {
+        "dataset": "bbyclub_hearth-disease",
+        "csv_file": "heart.csv",
+        "label": "13",
+        "model": "LogisticRegression",
+        "task_name": "bbyclub_hearth-disease_LogisticRegression_13"
+    },
+    "44": {
+        "dataset": "becksddf_churn-in-telecoms-dataset",
+        "csv_file": "bigml_59c28831336c6604c800002a.csv",
+        "label": "20",
+        "model": "RandomForestClassifier",
+        "task_name": "becksddf_churn-in-telecoms-dataset_RandomForestClassifier_20"
+    },
+    "45": {
+        "dataset": "birds-bones-and-living-habits",
+        "csv_file": "bird.csv",
+        "label": "11",
+        "model": "RandomForestClassifier",
+        "task_name": "birds-bones-and-living-habits_RandomForestClassifier_11"
+    },
+    "46": {
+        "dataset": "birdy654_eeg-brainwave-dataset-feeling-emotions",
+        "csv_file": "emotions.csv",
+        "label": "2548",
+        "model": "RandomForestClassifier",
+        "task_name": "birdy654_eeg-brainwave-dataset-feeling-emotions_RandomForestClassifier_2548"
+    },
+    "47": {
+        "dataset": "blastchar_telco-customer-churn",
+        "csv_file": "WA_Fn-UseC_-Telco-Customer-Churn.csv",
+        "label": "20",
+        "model": "LogisticRegression",
+        "task_name": "blastchar_telco-customer-churn_LogisticRegression_20"
+    },
+    "48": {
+        "dataset": "bluepanda98_users-of-a-social-network-who-bought-an-suv",
+        "csv_file": "Social_Network_Ads.csv",
+        "label": "4",
+        "model": "LogisticRegression",
+        "task_name": "bluepanda98_users-of-a-social-network-who-bought-an-suv_LogisticRegression_4"
+    },
+    "49": {
+        "dataset": "braindeadcoder_advertising",
+        "csv_file": "advertising.csv",
+        "label": "9",
+        "model": "LogisticRegression",
+        "task_name": "braindeadcoder_advertising_LogisticRegression_9"
+    },
+    "50": {
+        "dataset": "braindeadcoder_lending-club-data",
+        "csv_file": "loan_data.csv",
+        "label": "13",
+        "model": "RandomForestClassifier",
+        "task_name": "braindeadcoder_lending-club-data_RandomForestClassifier_13"
+    },
+    "51": {
+        "dataset": "brandao_diabetes",
+        "csv_file": "diabetic_data.csv",
+        "label": "49",
+        "model": "RandomForestClassifier",
+        "task_name": "brandao_diabetes_RandomForestClassifier_49"
+    },
+    "52": {
+        "dataset": "burak3ergun_loan-data-set",
+        "csv_file": "loan_data_set.csv",
+        "label": "12",
+        "model": "SVC",
+        "task_name": "burak3ergun_loan-data-set_SVC_12"
+    },
+    "53": {
+        "dataset": "car-evaluation-data-set",
+        "csv_file": "car_evaluation.csv",
+        "label": "6",
+        "model": "KNeighborsClassifier",
+        "task_name": "car-evaluation-data-set_KNeighborsClassifier_6"
+    },
+    "54": {
+        "dataset": "chandanabhatt_credit-card",
+        "csv_file": "cc_approvals.csv",
+        "label": "15",
+        "model": "LogisticRegression",
+        "task_name": "chandanabhatt_credit-card_LogisticRegression_15"
+    },
+    "55": {
+        "dataset": "chengjhj_patient-survey-score-with-demographics",
+        "csv_file": "pxdata.csv",
+        "label": "19",
+        "model": "RandomForestClassifier",
+        "task_name": "chengjhj_patient-survey-score-with-demographics_RandomForestClassifier_19"
+    },
+    "56": {
+        "dataset": "cherngs_heart-disease-cleveland-uci",
+        "csv_file": "heart_cleveland_upload.csv",
+        "label": "13",
+        "model": "RandomForestClassifier",
+        "task_name": "cherngs_heart-disease-cleveland-uci_RandomForestClassifier_13"
+    },
+    "57": {
+        "dataset": "chetnasureka_absenteeismatwork",
+        "csv_file": "Absenteeism_at_work.csv",
+        "label": "14",
+        "model": "SVC",
+        "task_name": "chetnasureka_absenteeismatwork_SVC_14"
+    },
+    "58": {
+        "dataset": "chicago-bike-sharedatasetprediction",
+        "csv_file": "dataset_prediction.csv",
+        "label": "14",
+        "model": "LogisticRegression",
+        "task_name": "chicago-bike-sharedatasetprediction_LogisticRegression_14"
+    },
+    "59": {
+        "dataset": "chiranjeevbit_bank-details",
+        "csv_file": "bank.csv",
+        "label": "20",
+        "model": "LogisticRegression",
+        "task_name": "chiranjeevbit_bank-details_LogisticRegression_20"
+    },
+    "60": {
+        "dataset": "chirin_africa-economic-banking-and-systemic-crisis-data",
+        "csv_file": "african_crises.csv",
+        "label": "13",
+        "model": "DecisionTreeClassifier",
+        "task_name": "chirin_africa-economic-banking-and-systemic-crisis-data_DecisionTreeClassifier_13"
+    },
+    "61": {
+        "dataset": "churn-in-telecoms-dataset",
+        "csv_file": "bigml_59c28831336c6604c800002a.csv",
+        "label": "20",
+        "model": "LogisticRegression",
+        "task_name": "churn-in-telecoms-dataset_LogisticRegression_20"
+    },
+    "62": {
+        "dataset": "cities_titanic123",
+        "csv_file": "ChanDarren_RaiTaran_Lab2a.csv",
+        "label": "1",
+        "model": "LogisticRegression",
+        "task_name": "cities_titanic123_LogisticRegression_1"
+    },
+    "63": {
+        "dataset": "classification",
+        "csv_file": "Dataset_for_Classification.csv",
+        "label": "1",
+        "model": "RandomForestClassifier",
+        "task_name": "classification_RandomForestClassifier_1"
+    },
+    "64": {
+        "dataset": "clinvar-conflicting",
+        "csv_file": "clinvar_conflicting.csv",
+        "label": "18",
+        "model": "RandomForestClassifier",
+        "task_name": "clinvar-conflicting_RandomForestClassifier_18"
+    },
+    "65": {
+        "dataset": "colara_human-resource",
+        "csv_file": "HR_comma_sep.csv",
+        "label": "6",
+        "model": "SVC",
+        "task_name": "colara_human-resource_SVC_6"
+    },
+    "66": {
+        "dataset": "customer-segmentation-tutorial-in-python",
+        "csv_file": "Mall_Customers.csv",
+        "label": "1",
+        "model": "KNeighborsClassifier",
+        "task_name": "customer-segmentation-tutorial-in-python_KNeighborsClassifier_1"
+    },
+    "67": {
+        "dataset": "danerbland_electionfinance",
+        "csv_file": "CandidateSummaryAction1.csv",
+        "label": "49",
+        "model": "LogisticRegression",
+        "task_name": "danerbland_electionfinance_LogisticRegression_49"
+    },
+    "68": {
+        "dataset": "danimal_heartdiseaseensembleclassifier",
+        "csv_file": "Heart_Disease_Data.csv",
+        "label": "13",
+        "model": "LogisticRegression",
+        "task_name": "danimal_heartdiseaseensembleclassifier_LogisticRegression_13"
+    },
+    "69": {
+        "dataset": "dansbecker_melbourne-housing-snapshot",
+        "csv_file": "melb_data.csv",
+        "label": "4",
+        "model": "KNeighborsClassifier",
+        "task_name": "dansbecker_melbourne-housing-snapshot_KNeighborsClassifier_4"
+    },
+    "70": {
+        "dataset": "dark06thunder_credit-card-dataset",
+        "csv_file": "credit_dataset.csv",
+        "label": "19",
+        "model": "DecisionTreeClassifier",
+        "task_name": "dark06thunder_credit-card-dataset_DecisionTreeClassifier_19"
+    },
+    "71": {
+        "dataset": "deepu1109_star-dataset",
+        "csv_file": "6 class csv.csv",
+        "label": "4",
+        "model": "KNeighborsClassifier",
+        "task_name": "deepu1109_star-dataset_KNeighborsClassifier_4"
+    },
+    "72": {
+        "dataset": "denisadutca_customer-behaviour",
+        "csv_file": "Customer_Behaviour.csv",
+        "label": "4",
+        "model": "RandomForestClassifier",
+        "task_name": "denisadutca_customer-behaviour_RandomForestClassifier_4"
+    },
+    "73": {
+        "dataset": "deyritwik_bank-loan",
+        "csv_file": "Bank_Personal_Loan_Modelling.csv",
+        "label": "9",
+        "model": "KNeighborsClassifier",
+        "task_name": "deyritwik_bank-loan_KNeighborsClassifier_9"
+    },
+    "74": {
+        "dataset": "diabetes",
+        "csv_file": "diabetes.csv",
+        "label": "8",
+        "model": "DecisionTreeClassifier",
+        "task_name": "diabetes_DecisionTreeClassifier_8"
+    },
+    "75": {
+        "dataset": "diabetescsv",
+        "csv_file": "diabetes.csv",
+        "label": "8",
+        "model": "KNeighborsClassifier",
+        "task_name": "diabetescsv_KNeighborsClassifier_8"
+    },
+    "76": {
+        "dataset": "diegobabativa_depression",
+        "csv_file": "b_depressed.csv",
+        "label": "22",
+        "model": "LogisticRegression",
+        "task_name": "diegobabativa_depression_LogisticRegression_22"
+    },
+    "77": {
+        "dataset": "dileep070_heart-disease-prediction-using-logistic-regression",
+        "csv_file": "framingham.csv",
+        "label": "15",
+        "model": "LogisticRegression",
+        "task_name": "dileep070_heart-disease-prediction-using-logistic-regression_LogisticRegression_15"
+    },
+    "78": {
+        "dataset": "dineshsagar66_hr-analytics-people-management",
+        "csv_file": "hr_analytics.csv",
+        "label": "6",
+        "model": "SVC",
+        "task_name": "dineshsagar66_hr-analytics-people-management_SVC_6"
+    },
+    "79": {
+        "dataset": "dipam7_student-grade-prediction",
+        "csv_file": "student-mat.csv",
+        "label": "32",
+        "model": "KNeighborsClassifier",
+        "task_name": "dipam7_student-grade-prediction_KNeighborsClassifier_32"
+    },
+    "80": {
+        "dataset": "dipayanbiswas_parkinsons-disease-speech-signal-features",
+        "csv_file": "pd_speech_features.csv",
+        "label": "754",
+        "model": "SVC",
+        "task_name": "dipayanbiswas_parkinsons-disease-speech-signal-features_SVC_754"
+    },
+    "81": {
+        "dataset": "displaynamenow_column-2c-wekacsv",
+        "csv_file": "column_2C_weka.csv",
+        "label": "6",
+        "model": "LogisticRegression",
+        "task_name": "displaynamenow_column-2c-wekacsv_LogisticRegression_6"
+    },
+    "82": {
+        "dataset": "doaaalsenani_usa-cers-dataset",
+        "csv_file": "USA_cars_datasets.csv",
+        "label": "1",
+        "model": "LogisticRegression",
+        "task_name": "doaaalsenani_usa-cers-dataset_LogisticRegression_1"
+    },
+    "83": {
+        "dataset": "dpr1988_telecom-churn-dataset",
+        "csv_file": "WA_Fn-UseC_-Telco-Customer-Churn.csv",
+        "label": "20",
+        "model": "RandomForestClassifier",
+        "task_name": "dpr1988_telecom-churn-dataset_RandomForestClassifier_20"
+    },
+    "84": {
+        "dataset": "dragonheir_logistic-regression",
+        "csv_file": "Social_Network_Ads.csv",
+        "label": "4",
+        "model": "KNeighborsClassifier",
+        "task_name": "dragonheir_logistic-regression_KNeighborsClassifier_4"
+    },
+    "85": {
+        "dataset": "ealaxi_paysim1",
+        "csv_file": "PS_20174392719_1491204439457_log.csv",
+        "label": "10",
+        "model": "DecisionTreeClassifier",
+        "task_name": "ealaxi_paysim1_DecisionTreeClassifier_10"
+    },
+    "86": {
+        "dataset": "econdata_predicting-earnings-from-census-data",
+        "csv_file": "census.csv",
+        "label": "12",
+        "model": "RandomForestClassifier",
+        "task_name": "econdata_predicting-earnings-from-census-data_RandomForestClassifier_12"
+    },
+    "87": {
+        "dataset": "elikplim_car-evaluation-data-set",
+        "csv_file": "car_evaluation.csv",
+        "label": "6",
+        "model": "KNeighborsClassifier",
+        "task_name": "elikplim_car-evaluation-data-set_KNeighborsClassifier_6"
+    },
+    "88": {
+        "dataset": "employee-attrition",
+        "csv_file": "WA_Fn-UseC_-HR-Employee-Attrition.csv",
+        "label": "1",
+        "model": "LogisticRegression",
+        "task_name": "employee-attrition_LogisticRegression_1"
+    },
+    "89": {
+        "dataset": "employee-attrition-data",
+        "csv_file": "MFG10YearTerminationData.csv",
+        "label": "16",
+        "model": "RandomForestClassifier",
+        "task_name": "employee-attrition-data_RandomForestClassifier_16"
+    },
+    "90": {
+        "dataset": "english-premier-league-players-dataset",
+        "csv_file": "epldata_final.csv",
+        "label": "16",
+        "model": "LogisticRegression",
+        "task_name": "english-premier-league-players-dataset_LogisticRegression_16"
+    },
+    "91": {
+        "dataset": "eswarchandt_phishing-website-detector",
+        "csv_file": "phishing.csv",
+        "label": "31",
+        "model": "SVC",
+        "task_name": "eswarchandt_phishing-website-detector_SVC_31"
+    },
+    "92": {
+        "dataset": "eye-movement-data-eeg-1",
+        "csv_file": "eye movement.csv",
+        "label": "14",
+        "model": "KNeighborsClassifier",
+        "task_name": "eye-movement-data-eeg-1_KNeighborsClassifier_14"
+    },
+    "93": {
+        "dataset": "falldata",
+        "csv_file": "falldeteciton.csv",
+        "label": "0",
+        "model": "SVC",
+        "task_name": "falldata_SVC_0"
+    },
+    "94": {
+        "dataset": "fareesamasroor_heartdd",
+        "csv_file": "heart.csv",
+        "label": "13",
+        "model": "LogisticRegression",
+        "task_name": "fareesamasroor_heartdd_LogisticRegression_13"
+    },
+    "95": {
+        "dataset": "faressayah_audiobook-app-data",
+        "csv_file": "audiobook_data_2.csv",
+        "label": "11",
+        "model": "RandomForestClassifier",
+        "task_name": "faressayah_audiobook-app-data_RandomForestClassifier_11"
+    },
+    "96": {
+        "dataset": "faressayah_college-data",
+        "csv_file": "data.csv",
+        "label": "0",
+        "model": "KNeighborsClassifier",
+        "task_name": "faressayah_college-data_KNeighborsClassifier_0"
+    },
+    "97": {
+        "dataset": "fayomi_advertising",
+        "csv_file": "advertising.csv",
+        "label": "9",
+        "model": "LogisticRegression",
+        "task_name": "fayomi_advertising_LogisticRegression_9"
+    },
+    "98": {
+        "dataset": "fertility-data-set",
+        "csv_file": "fertility.csv",
+        "label": "9",
+        "model": "LogisticRegression",
+        "task_name": "fertility-data-set_LogisticRegression_9"
+    },
+    "99": {
+        "dataset": "filippoo_deep-learning-az-ann",
+        "csv_file": "Churn_Modelling.csv",
+        "label": "13",
+        "model": "RandomForestClassifier",
+        "task_name": "filippoo_deep-learning-az-ann_RandomForestClassifier_13"
+    },
+    "100": {
+        "dataset": "flenderson_sales-analysis",
+        "csv_file": "SalesKaggle3.csv",
+        "label": "3",
+        "model": "KNeighborsClassifier",
+        "task_name": "flenderson_sales-analysis_KNeighborsClassifier_3"
+    },
+    "101": {
+        "dataset": "flyingwombat_us-news-and-world-reports-college-data",
+        "csv_file": "College.csv",
+        "label": "1",
+        "model": "LogisticRegression",
+        "task_name": "flyingwombat_us-news-and-world-reports-college-data_LogisticRegression_1"
+    },
+    "102": {
+        "dataset": "galibce003_cardiotocographic",
+        "csv_file": "Cardiotocographic.csv",
+        "label": "21",
+        "model": "RandomForestClassifier",
+        "task_name": "galibce003_cardiotocographic_RandomForestClassifier_21"
+    },
+    "103": {
+        "dataset": "gangliu_telecustsclasses",
+        "csv_file": "teleCust1000t.csv",
+        "label": "11",
+        "model": "KNeighborsClassifier",
+        "task_name": "gangliu_telecustsclasses_KNeighborsClassifier_11"
+    },
+    "104": {
+        "dataset": "gauravduttakiit_heart-disease-prediction",
+        "csv_file": "heart_v2.csv",
+        "label": "4",
+        "model": "DecisionTreeClassifier",
+        "task_name": "gauravduttakiit_heart-disease-prediction_DecisionTreeClassifier_4"
+    },
+    "105": {
+        "dataset": "geomack_spotifyclassification",
+        "csv_file": "data.csv",
+        "label": "14",
+        "model": "DecisionTreeClassifier",
+        "task_name": "geomack_spotifyclassification_DecisionTreeClassifier_14"
+    },
+    "106": {
+        "dataset": "gilsousa_habermans-survival-data-set",
+        "csv_file": "haberman.csv",
+        "label": "3",
+        "model": "KNeighborsClassifier",
+        "task_name": "gilsousa_habermans-survival-data-set_KNeighborsClassifier_3"
+    },
+    "107": {
+        "dataset": "gopalchettri_advertisement",
+        "csv_file": "advertising.csv",
+        "label": "9",
+        "model": "LogisticRegression",
+        "task_name": "gopalchettri_advertisement_LogisticRegression_9"
+    },
+    "108": {
+        "dataset": "gouravkumar717_dataset",
+        "csv_file": "diabetes.csv",
+        "label": "8",
+        "model": "KNeighborsClassifier",
+        "task_name": "gouravkumar717_dataset_KNeighborsClassifier_8"
+    },
+    "109": {
+        "dataset": "greedy93_titanic-survival-data",
+        "csv_file": "titanic_data.csv",
+        "label": "1",
+        "model": "RandomForestClassifier",
+        "task_name": "greedy93_titanic-survival-data_RandomForestClassifier_1"
+    },
+    "110": {
+        "dataset": "gsaivennela_diabetes",
+        "csv_file": "diabetes.csv",
+        "label": "8",
+        "model": "DecisionTreeClassifier",
+        "task_name": "gsaivennela_diabetes_DecisionTreeClassifier_8"
+    },
+    "111": {
+        "dataset": "gurusalivahan_iris-dataset",
+        "csv_file": "iris.csv",
+        "label": "4",
+        "model": "LogisticRegression",
+        "task_name": "gurusalivahan_iris-dataset_LogisticRegression_4"
+    },
+    "112": {
+        "dataset": "guywhowantstolearnml_parkinsonsxyz",
+        "csv_file": "parkinsons2.csv",
+        "label": "22",
+        "model": "LogisticRegression",
+        "task_name": "guywhowantstolearnml_parkinsonsxyz_LogisticRegression_22"
+    },
+    "113": {
+        "dataset": "hafizwaqas101_creditcarddefault",
+        "csv_file": "credit-card-default.csv",
+        "label": "24",
+        "model": "RandomForestClassifier",
+        "task_name": "hafizwaqas101_creditcarddefault_RandomForestClassifier_24"
+    },
+    "114": {
+        "dataset": "haidang2001vn_diabetes",
+        "csv_file": "diabetes_data.csv",
+        "label": "8",
+        "model": "LogisticRegression",
+        "task_name": "haidang2001vn_diabetes_LogisticRegression_8"
+    },
+    "115": {
+        "dataset": "harinir_hepatitis",
+        "csv_file": "hepatitis.csv",
+        "label": "0",
+        "model": "DecisionTreeClassifier",
+        "task_name": "harinir_hepatitis_DecisionTreeClassifier_0"
+    },
+    "116": {
+        "dataset": "harithagorle_cervical-cancer",
+        "csv_file": "cervical-cancer.csv",
+        "label": "35",
+        "model": "RandomForestClassifier",
+        "task_name": "harithagorle_cervical-cancer_RandomForestClassifier_35"
+    },
+    "117": {
+        "dataset": "hb20007_gender-classification",
+        "csv_file": "Transformed Data Set - Sheet1.csv",
+        "label": "4",
+        "model": "LogisticRegression",
+        "task_name": "hb20007_gender-classification_LogisticRegression_4"
+    },
+    "118": {
+        "dataset": "henriqueyamahata_bank-marketing",
+        "csv_file": "bank-additional-full.csv",
+        "label": "20",
+        "model": "RandomForestClassifier",
+        "task_name": "henriqueyamahata_bank-marketing_RandomForestClassifier_20"
+    },
+    "119": {
+        "dataset": "heptapod_titanic",
+        "csv_file": "train_and_test2.csv",
+        "label": "27",
+        "model": "LogisticRegression",
+        "task_name": "heptapod_titanic_LogisticRegression_27"
+    },
+    "120": {
+        "dataset": "hesh97_titanicdataset-traincsv",
+        "csv_file": "train.csv",
+        "label": "1",
+        "model": "LogisticRegression",
+        "task_name": "hesh97_titanicdataset-traincsv_LogisticRegression_1"
+    },
+    "121": {
+        "dataset": "himselfthedecker_aam-avaliacao-dataset",
+        "csv_file": "avaliacao.csv",
+        "label": "14",
+        "model": "SVC",
+        "task_name": "himselfthedecker_aam-avaliacao-dataset_SVC_14"
+    },
+    "122": {
+        "dataset": "hj5992_bank-churn-modelling",
+        "csv_file": "Churn_Modelling.csv",
+        "label": "13",
+        "model": "SVC",
+        "task_name": "hj5992_bank-churn-modelling_SVC_13"
+    },
+    "123": {
+        "dataset": "hmavrodiev_london-bike-sharing-dataset",
+        "csv_file": "london_merged.csv",
+        "label": "9",
+        "model": "RandomForestClassifier",
+        "task_name": "hmavrodiev_london-bike-sharing-dataset_RandomForestClassifier_5"
+    },
+    "124": {
+        "dataset": "hmeq-data",
+        "csv_file": "hmeq.csv",
+        "label": "0",
+        "model": "RandomForestClassifier",
+        "task_name": "hmeq-data_RandomForestClassifier_0"
+    },
+    "125": {
+        "dataset": "hr-analytics",
+        "csv_file": "turnover.csv",
+        "label": "6",
+        "model": "DecisionTreeClassifier",
+        "task_name": "hr-analytics_DecisionTreeClassifier_6"
+    },
+    "126": {
+        "dataset": "hr-comma-sep",
+        "csv_file": "HR_comma_sep.csv",
+        "label": "6",
+        "model": "LogisticRegression",
+        "task_name": "hr-comma-sep_LogisticRegression_6"
+    },
+    "127": {
+        "dataset": "hr-comma-sepcsv",
+        "csv_file": "HR_comma_sep.csv",
+        "label": "6",
+        "model": "LogisticRegression",
+        "task_name": "hr-comma-sepcsv_LogisticRegression_6"
+    },
+    "128": {
+        "dataset": "human-resource",
+        "csv_file": "HR_comma_sep.csv",
+        "label": "6",
+        "model": "RandomForestClassifier",
+        "task_name": "human-resource_RandomForestClassifier_6"
+    },
+    "129": {
+        "dataset": "iabhishekofficial_mobile-price-classification",
+        "csv_file": "train.csv",
+        "label": "20",
+        "model": "DecisionTreeClassifier",
+        "task_name": "iabhishekofficial_mobile-price-classification_DecisionTreeClassifier_20"
+    },
+    "130": {
+        "dataset": "iamaniket_suv-data",
+        "csv_file": "suv_data.csv",
+        "label": "4",
+        "model": "LogisticRegression",
+        "task_name": "iamaniket_suv-data_LogisticRegression_4"
+    },
+    "131": {
+        "dataset": "ibm-attrition-analysis",
+        "csv_file": "WA_Fn-UseC_-HR-Employee-Attrition.csv",
+        "label": "1",
+        "model": "LogisticRegression",
+        "task_name": "ibm-attrition-analysis_LogisticRegression_1"
+    },
+    "132": {
+        "dataset": "ibm-hr-analytics-attrition-dataset",
+        "csv_file": "WA_Fn-UseC_-HR-Employee-Attrition.csv",
+        "label": "1",
+        "model": "LogisticRegression",
+        "task_name": "ibm-hr-analytics-attrition-dataset_LogisticRegression_1"
+    },
+    "133": {
+        "dataset": "imnikhilanand_heart-attack-prediction",
+        "csv_file": "data.csv",
+        "label": "13",
+        "model": "KNeighborsClassifier",
+        "task_name": "imnikhilanand_heart-attack-prediction_KNeighborsClassifier_13"
+    },
+    "134": {
+        "dataset": "indian-liver-patient-records",
+        "csv_file": "indian_liver_patient.csv",
+        "label": "10",
+        "model": "LogisticRegression",
+        "task_name": "indian-liver-patient-records_LogisticRegression_10"
+    },
+    "135": {
+        "dataset": "international-football-results-from-1872-to-2017",
+        "csv_file": "results.csv",
+        "label": "8",
+        "model": "KNeighborsClassifier",
+        "task_name": "international-football-results-from-1872-to-2017_KNeighborsClassifier_8"
+    },
+    "136": {
+        "dataset": "ionaskel_nba-games-stats-from-2014-to-2018",
+        "csv_file": "nba.games.stats.csv",
+        "label": "6",
+        "model": "SVC",
+        "task_name": "ionaskel_nba-games-stats-from-2014-to-2018_SVC_6"
+    },
+    "137": {
+        "dataset": "isaikumar_creditcardfraud",
+        "csv_file": "creditcard.csv",
+        "label": "30",
+        "model": "RandomForestClassifier",
+        "task_name": "isaikumar_creditcardfraud_RandomForestClassifier_30"
+    },
+    "138": {
+        "dataset": "ishandutta_early-stage-diabetes-risk-prediction-dataset",
+        "csv_file": "diabetes_data_upload.csv",
+        "label": "16",
+        "model": "RandomForestClassifier",
+        "task_name": "ishandutta_early-stage-diabetes-risk-prediction-dataset_RandomForestClassifier_16"
+    },
+    "139": {
+        "dataset": "jacklizhi_creditcard",
+        "csv_file": "creditcard.csv",
+        "label": "30",
+        "model": "LogisticRegression",
+        "task_name": "jacklizhi_creditcard_LogisticRegression_30"
+    },
+    "140": {
+        "dataset": "jaisanant_bank-details",
+        "csv_file": "bank.csv",
+        "label": "20",
+        "model": "LogisticRegression",
+        "task_name": "jaisanant_bank-details_LogisticRegression_20"
+    },
+    "141": {
+        "dataset": "janiobachmann_bank-marketing-dataset",
+        "csv_file": "bank.csv",
+        "label": "16",
+        "model": "RandomForestClassifier",
+        "task_name": "janiobachmann_bank-marketing-dataset_RandomForestClassifier_16"
+    },
+    "142": {
+        "dataset": "jiangzuo_hr-comma-sep",
+        "csv_file": "HR_comma_sep.csv",
+        "label": "6",
+        "model": "LogisticRegression",
+        "task_name": "jiangzuo_hr-comma-sep_LogisticRegression_6"
+    },
+    "143": {
+        "dataset": "jithu10_heart-disease-uci-dataset",
+        "csv_file": "heart.csv",
+        "label": "13",
+        "model": "KNeighborsClassifier",
+        "task_name": "jithu10_heart-disease-uci-dataset_KNeighborsClassifier_13"
+    },
+    "144": {
+        "dataset": "jnikhilsai_lettter-rec",
+        "csv_file": "letter-recognition.csv",
+        "label": "0",
+        "model": "SVC",
+        "task_name": "jnikhilsai_lettter-rec_SVC_0"
+    },
+    "145": {
+        "dataset": "johndasilva_diabetes",
+        "csv_file": "diabetes.csv",
+        "label": "8",
+        "model": "SVC",
+        "task_name": "johndasilva_diabetes_SVC_8"
+    },
+    "146": {
+        "dataset": "johnsmith88_heart-disease-dataset",
+        "csv_file": "heart.csv",
+        "label": "13",
+        "model": "KNeighborsClassifier",
+        "task_name": "johnsmith88_heart-disease-dataset_KNeighborsClassifier_13"
+    },
+    "147": {
+        "dataset": "johnyquest_wisconsin-breast-cancer-cytology",
+        "csv_file": "BreastCancer2.csv",
+        "label": "10",
+        "model": "KNeighborsClassifier",
+        "task_name": "johnyquest_wisconsin-breast-cancer-cytology_KNeighborsClassifier_10"
+    },
+    "148": {
+        "dataset": "johnyquest_wisconsin-breast-cancer-cytology-features",
+        "csv_file": "wisconsin_breast_cancer.csv",
+        "label": "10",
+        "model": "RandomForestClassifier",
+        "task_name": "johnyquest_wisconsin-breast-cancer-cytology-features_RandomForestClassifier_10"
+    },
+    "149": {
+        "dataset": "joniarroba_noshowappointments",
+        "csv_file": "KaggleV2-May-2016.csv",
+        "label": "13",
+        "model": "LogisticRegression",
+        "task_name": "joniarroba_noshowappointments_LogisticRegression_13"
+    },
+    "150": {
+        "dataset": "joousep_regression-kernel",
+        "csv_file": "column_2C_weka.csv",
+        "label": "6",
+        "model": "RandomForestClassifier",
+        "task_name": "joousep_regression-kernel_RandomForestClassifier_6"
+    },
+    "151": {
+        "dataset": "jquinteiro_diabetes",
+        "csv_file": "diabetes_data.csv",
+        "label": "8",
+        "model": "KNeighborsClassifier",
+        "task_name": "jquinteiro_diabetes_KNeighborsClassifier_8"
+    },
+    "152": {
+        "dataset": "jrmistry_killed-or-seriously-injured-ksi-toronto-clean",
+        "csv_file": "KSI_CLEAN.csv",
+        "label": "55",
+        "model": "RandomForestClassifier",
+        "task_name": "jrmistry_killed-or-seriously-injured-ksi-toronto-clean_RandomForestClassifier_55"
+    },
+    "153": {
+        "dataset": "jruvika_fake-news-detection",
+        "csv_file": "data.csv",
+        "label": "3",
+        "model": "DecisionTreeClassifier",
+        "task_name": "jruvika_fake-news-detection_DecisionTreeClassifier_3"
+    },
+    "154": {
+        "dataset": "jsphyg_weather-dataset-rattle-package",
+        "csv_file": "weatherAUS.csv",
+        "label": "22",
+        "model": "DecisionTreeClassifier",
+        "task_name": "jsphyg_weather-dataset-rattle-package_DecisionTreeClassifier_22"
+    },
+    "155": {
+        "dataset": "kabure_german-credit-data-with-risk",
+        "csv_file": "german_credit_data.csv",
+        "label": "10",
+        "model": "RandomForestClassifier",
+        "task_name": "kabure_german-credit-data-with-risk_RandomForestClassifier_10"
+    },
+    "156": {
+        "dataset": "kamrankausar_iris-data",
+        "csv_file": "Iris.csv",
+        "label": "5",
+        "model": "KNeighborsClassifier",
+        "task_name": "kamrankausar_iris-data_KNeighborsClassifier_5"
+    },
+    "157": {
+        "dataset": "kandij_diabetes-dataset",
+        "csv_file": "diabetes2.csv",
+        "label": "8",
+        "model": "LogisticRegression",
+        "task_name": "kandij_diabetes-dataset_LogisticRegression_8"
+    },
+    "158": {
+        "dataset": "karthickaravindan_cancer-datsset",
+        "csv_file": "data.csv",
+        "label": "10",
+        "model": "KNeighborsClassifier",
+        "task_name": "karthickaravindan_cancer-datsset_KNeighborsClassifier_10"
+    },
+    "159": {
+        "dataset": "khotijahs1_datat3rr",
+        "csv_file": "DataT3RR.csv",
+        "label": "7",
+        "model": "KNeighborsClassifier",
+        "task_name": "khotijahs1_datat3rr_KNeighborsClassifier_7"
+    },
+    "160": {
+        "dataset": "kingburrito666_cannabis-strains",
+        "csv_file": "cannabis.csv",
+        "label": "1",
+        "model": "RandomForestClassifier",
+        "task_name": "kingburrito666_cannabis-strains_RandomForestClassifier_1"
+    },
+    "161": {
+        "dataset": "krantiswalke_bank-personal-loan-modelling",
+        "csv_file": "Bank_Personal_Loan_Modelling.csv",
+        "label": "9",
+        "model": "SVC",
+        "task_name": "krantiswalke_bank-personal-loan-modelling_SVC_9"
+    },
+    "162": {
+        "dataset": "krleee_churn",
+        "csv_file": "churn.csv",
+        "label": "19",
+        "model": "RandomForestClassifier",
+        "task_name": "krleee_churn_RandomForestClassifier_19"
+    },
+    "163": {
+        "dataset": "kumargh_pimaindiansdiabetescsv",
+        "csv_file": "pima-indians-diabetes.csv",
+        "label": "8",
+        "model": "DecisionTreeClassifier",
+        "task_name": "kumargh_pimaindiansdiabetescsv_DecisionTreeClassifier_8"
+    },
+    "164": {
+        "dataset": "kuniowu_human-resource",
+        "csv_file": "HR.csv",
+        "label": "6",
+        "model": "LogisticRegression",
+        "task_name": "kuniowu_human-resource_LogisticRegression_6"
+    },
+    "165": {
+        "dataset": "lianglirong_pima-indians-onset-of-diabetes",
+        "csv_file": "pima_data.csv",
+        "label": "8",
+        "model": "LogisticRegression",
+        "task_name": "lianglirong_pima-indians-onset-of-diabetes_LogisticRegression_8"
+    },
+    "166": {
+        "dataset": "linuxarpan_kyposis",
+        "csv_file": "kyphosis.csv",
+        "label": "0",
+        "model": "RandomForestClassifier",
+        "task_name": "linuxarpan_kyposis_RandomForestClassifier_0"
+    },
+    "167": {
+        "dataset": "liujiaqi_hr-comma-sepcsv",
+        "csv_file": "HR_comma_sep.csv",
+        "label": "6",
+        "model": "LogisticRegression",
+        "task_name": "liujiaqi_hr-comma-sepcsv_LogisticRegression_6"
+    },
+    "168": {
+        "dataset": "lnvardanyan_hr-analytics",
+        "csv_file": "turnover.csv",
+        "label": "6",
+        "model": "DecisionTreeClassifier",
+        "task_name": "lnvardanyan_hr-analytics_DecisionTreeClassifier_6"
+    },
+    "169": {
+        "dataset": "loan-predication",
+        "csv_file": "train_u6lujuX_CVtuZ9i (1).csv",
+        "label": "12",
+        "model": "LogisticRegression",
+        "task_name": "loan-predication_LogisticRegression_12"
+    },
+    "170": {
+        "dataset": "loandata",
+        "csv_file": "Loan payments data.csv",
+        "label": "1",
+        "model": "RandomForestClassifier",
+        "task_name": "loandata_RandomForestClassifier_1"
+    },
+    "171": {
+        "dataset": "lodetomasi1995_income-classification",
+        "csv_file": "income_evaluation.csv",
+        "label": "14",
+        "model": "LogisticRegression",
+        "task_name": "lodetomasi1995_income-classification_LogisticRegression_14"
+    },
+    "172": {
+        "dataset": "loganalive_echocardiogram-uci",
+        "csv_file": "echocardiogram.csv",
+        "label": "1",
+        "model": "DecisionTreeClassifier",
+        "task_name": "loganalive_echocardiogram-uci_DecisionTreeClassifier_1"
+    },
+    "173": {
+        "dataset": "logistic-regression",
+        "csv_file": "Social_Network_Ads.csv",
+        "label": "4",
+        "model": "SVC",
+        "task_name": "logistic-regression_SVC_4"
+    },
+    "174": {
+        "dataset": "lokkagle_diabetes-classification-problem",
+        "csv_file": "kaggle_diabetes.csv",
+        "label": "8",
+        "model": "RandomForestClassifier",
+        "task_name": "lokkagle_diabetes-classification-problem_RandomForestClassifier_8"
+    },
+    "175": {
+        "dataset": "louishgy_churn-modelling",
+        "csv_file": "Churn_Modelling.csv",
+        "label": "13",
+        "model": "SVC",
+        "task_name": "louishgy_churn-modelling_SVC_13"
+    },
+    "176": {
+        "dataset": "loveall_cervical-cancer-risk-classification",
+        "csv_file": "kag_risk_factors_cervical_cancer.csv",
+        "label": "35",
+        "model": "DecisionTreeClassifier",
+        "task_name": "loveall_cervical-cancer-risk-classification_DecisionTreeClassifier_35"
+    },
+    "177": {
+        "dataset": "lsingh4_malicious-and-benign-websites",
+        "csv_file": "security.csv",
+        "label": "23",
+        "model": "KNeighborsClassifier",
+        "task_name": "lsingh4_malicious-and-benign-websites_KNeighborsClassifier_23"
+    },
+    "178": {
+        "dataset": "maik3141_abalone",
+        "csv_file": "abalone.data.csv",
+        "label": "0",
+        "model": "KNeighborsClassifier",
+        "task_name": "maik3141_abalone_KNeighborsClassifier_0"
+    },
+    "179": {
+        "dataset": "malicious-and-benign-websites",
+        "csv_file": "security.csv",
+        "label": "23",
+        "model": "KNeighborsClassifier",
+        "task_name": "malicious-and-benign-websites_KNeighborsClassifier_23"
+    },
+    "180": {
+        "dataset": "mammographic-mass-data-set",
+        "csv_file": "Cleaned_data.csv",
+        "label": "5",
+        "model": "DecisionTreeClassifier",
+        "task_name": "mammographic-mass-data-set_DecisionTreeClassifier_5"
+    },
+    "181": {
+        "dataset": "manojvinod_diabetes",
+        "csv_file": "diabetes.csv",
+        "label": "8",
+        "model": "DecisionTreeClassifier",
+        "task_name": "manojvinod_diabetes_DecisionTreeClassifier_8"
+    },
+    "182": {
+        "dataset": "mansoordaku_ckdisease",
+        "csv_file": "kidney_disease.csv",
+        "label": "25",
+        "model": "RandomForestClassifier",
+        "task_name": "mansoordaku_ckdisease_RandomForestClassifier_24"
+    },
+    "183": {
+        "dataset": "marcelotc_german-credit-risk",
+        "csv_file": "german_credit.csv",
+        "label": "0",
+        "model": "RandomForestClassifier",
+        "task_name": "marcelotc_german-credit-risk_RandomForestClassifier_0"
+    },
+    "184": {
+        "dataset": "mathchi_diabetes-data-set",
+        "csv_file": "diabetes.csv",
+        "label": "8",
+        "model": "RandomForestClassifier",
+        "task_name": "mathchi_diabetes-data-set_RandomForestClassifier_8"
+    },
+    "185": {
+        "dataset": "mdmahmudferdous_titanic",
+        "csv_file": "titanic_cleaned.csv",
+        "label": "0",
+        "model": "LogisticRegression",
+        "task_name": "mdmahmudferdous_titanic_LogisticRegression_0"
+    },
+    "186": {
+        "dataset": "mdmahmudferdous_train-cleaned",
+        "csv_file": "train_cleaned.csv",
+        "label": "0",
+        "model": "SVC",
+        "task_name": "mdmahmudferdous_train-cleaned_SVC_0"
+    },
+    "187": {
+        "dataset": "mdshamimrahman_heart-diseases",
+        "csv_file": "datasets_4123_6408_framingham.csv",
+        "label": "15",
+        "model": "DecisionTreeClassifier",
+        "task_name": "mdshamimrahman_heart-diseases_DecisionTreeClassifier_15"
+    },
+    "188": {
+        "dataset": "mejbahahammad_datasetknn",
+        "csv_file": "DataSetKNN.csv",
+        "label": "10",
+        "model": "KNeighborsClassifier",
+        "task_name": "mejbahahammad_datasetknn_KNeighborsClassifier_10"
+    },
+    "189": {
+        "dataset": "mental-health-in-tech-survey",
+        "csv_file": "survey.csv",
+        "label": "18",
+        "model": "RandomForestClassifier",
+        "task_name": "mental-health-in-tech-survey_RandomForestClassifier_18"
+    },
+    "190": {
+        "dataset": "merishnasuwal_breast-cancer-prediction-dataset",
+        "csv_file": "Breast_cancer_data.csv",
+        "label": "5",
+        "model": "RandomForestClassifier",
+        "task_name": "merishnasuwal_breast-cancer-prediction-dataset_RandomForestClassifier_5"
+    },
+    "191": {
+        "dataset": "mice-protein-expression",
+        "csv_file": "Data_Cortex_Nuclear.csv",
+        "label": "81",
+        "model": "RandomForestClassifier",
+        "task_name": "mice-protein-expression_RandomForestClassifier_81"
+    },
+    "192": {
+        "dataset": "mirichoi0218_insurance",
+        "csv_file": "insurance.csv",
+        "label": "1",
+        "model": "LogisticRegression",
+        "task_name": "mirichoi0218_insurance_LogisticRegression_1"
+    },
+    "193": {
+        "dataset": "mjeweldhali_heartdata1",
+        "csv_file": "heart.csv",
+        "label": "13",
+        "model": "RandomForestClassifier",
+        "task_name": "mjeweldhali_heartdata1_RandomForestClassifier_13"
+    },
+    "194": {
+        "dataset": "mohammadnazeer_bankmarketing",
+        "csv_file": "bank-marketing.csv",
+        "label": "18",
+        "model": "RandomForestClassifier",
+        "task_name": "mohammadnazeer_bankmarketing_RandomForestClassifier_18"
+    },
+    "195": {
+        "dataset": "mohansacharya_graduate-admissions",
+        "csv_file": "Admission_Predict_Ver1.1.csv",
+        "label": "3",
+        "model": "KNeighborsClassifier",
+        "task_name": "mohansacharya_graduate-admissions_KNeighborsClassifier_8"
+    },
+    "196": {
+        "dataset": "mrisdal_married-at-first-sight",
+        "csv_file": "mafs.csv",
+        "label": "8",
+        "model": "LogisticRegression",
+        "task_name": "mrisdal_married-at-first-sight_LogisticRegression_8"
+    },
+    "197": {
+        "dataset": "mrtechnical011_classification-suv-dataset",
+        "csv_file": "Social_Network_Ads.csv",
+        "label": "4",
+        "model": "SVC",
+        "task_name": "mrtechnical011_classification-suv-dataset_SVC_4"
+    },
+    "198": {
+        "dataset": "mrushan3_bank-marketing",
+        "csv_file": "bank-marketing.csv",
+        "label": "18",
+        "model": "RandomForestClassifier",
+        "task_name": "mrushan3_bank-marketing_RandomForestClassifier_18"
+    },
+    "199": {
+        "dataset": "mustafaali96_weight-height",
+        "csv_file": "weight-height.csv",
+        "label": "0",
+        "model": "DecisionTreeClassifier",
+        "task_name": "mustafaali96_weight-height_DecisionTreeClassifier_0"
+    },
+    "200": {
+        "dataset": "mysticvalley_balance-scale",
+        "csv_file": "balance-scale.csv",
+        "label": "4",
+        "model": "KNeighborsClassifier",
+        "task_name": "mysticvalley_balance-scale_KNeighborsClassifier_4"
+    },
+    "201": {
+        "dataset": "nagasaimannepalli_adult-income",
+        "csv_file": "income.csv",
+        "label": "14",
+        "model": "RandomForestClassifier",
+        "task_name": "nagasaimannepalli_adult-income_RandomForestClassifier_14"
+    },
+    "202": {
+        "dataset": "najibmh_us-airline-passenger-satisfaction-survey",
+        "csv_file": "satisfaction_v2.csv",
+        "label": "1",
+        "model": "LogisticRegression",
+        "task_name": "najibmh_us-airline-passenger-satisfaction-survey_LogisticRegression_1"
+    },
+    "203": {
+        "dataset": "nalkrolu_assay-of-serum-free-light-chain",
+        "csv_file": "flchain.csv",
+        "label": "10",
+        "model": "KNeighborsClassifier",
+        "task_name": "nalkrolu_assay-of-serum-free-light-chain_KNeighborsClassifier_10"
+    },
+    "204": {
+        "dataset": "nareshbhat_wine-quality-binary-classification",
+        "csv_file": "wine.csv",
+        "label": "11",
+        "model": "SVC",
+        "task_name": "nareshbhat_wine-quality-binary-classification_SVC_11"
+    },
+    "205": {
+        "dataset": "naveengowda16_logistic-regression-heart-disease-prediction",
+        "csv_file": "framingham_heart_disease.csv",
+        "label": "15",
+        "model": "LogisticRegression",
+        "task_name": "naveengowda16_logistic-regression-heart-disease-prediction_LogisticRegression_15"
+    },
+    "206": {
+        "dataset": "navins7_telecommunications",
+        "csv_file": "teleCust1000t.csv",
+        "label": "11",
+        "model": "KNeighborsClassifier",
+        "task_name": "navins7_telecommunications_KNeighborsClassifier_11"
+    },
+    "207": {
+        "dataset": "nikniko101v_bcwdata",
+        "csv_file": "bcwd.csv",
+        "label": "0",
+        "model": "RandomForestClassifier",
+        "task_name": "nikniko101v_bcwdata_RandomForestClassifier_0"
+    },
+    "208": {
+        "dataset": "nikniko101v_seeds-dataset-binary",
+        "csv_file": "seeds_dataset_binary.csv",
+        "label": "7",
+        "model": "LogisticRegression",
+        "task_name": "nikniko101v_seeds-dataset-binary_LogisticRegression_7"
+    },
+    "209": {
+        "dataset": "ninjacoding_breast-cancer-wisconsin-benign-or-malignant",
+        "csv_file": "tumor.csv",
+        "label": "10",
+        "model": "RandomForestClassifier",
+        "task_name": "ninjacoding_breast-cancer-wisconsin-benign-or-malignant_RandomForestClassifier_10"
+    },
+    "210": {
+        "dataset": "ninzaami_loan-predication",
+        "csv_file": "train_u6lujuX_CVtuZ9i (1).csv",
+        "label": "12",
+        "model": "RandomForestClassifier",
+        "task_name": "ninzaami_loan-predication_RandomForestClassifier_12"
+    },
+    "211": {
+        "dataset": "nishan192_letterrecognition-using-svm",
+        "csv_file": "letter-recognition.csv",
+        "label": "0",
+        "model": "SVC",
+        "task_name": "nishan192_letterrecognition-using-svm_SVC_0"
+    },
+    "212": {
+        "dataset": "nishanthnarayanan_loan-data-set",
+        "csv_file": "loan_data_set.csv",
+        "label": "12",
+        "model": "SVC",
+        "task_name": "nishanthnarayanan_loan-data-set_SVC_12"
+    },
+    "213": {
+        "dataset": "noordeen_bikeshare-data",
+        "csv_file": "bike_share.csv",
+        "label": "10",
+        "model": "KNeighborsClassifier",
+        "task_name": "noordeen_bikeshare-data_KNeighborsClassifier_10"
+    },
+    "214": {
+        "dataset": "noshowappointments",
+        "csv_file": "KaggleV2-May-2016.csv",
+        "label": "13",
+        "model": "DecisionTreeClassifier",
+        "task_name": "noshowappointments_DecisionTreeClassifier_13"
+    },
+    "215": {
+        "dataset": "oaref92_load-predition-training-set",
+        "csv_file": "Train.csv",
+        "label": "12",
+        "model": "LogisticRegression",
+        "task_name": "oaref92_load-predition-training-set_LogisticRegression_12"
+    },
+    "216": {
+        "dataset": "overratedgman_mammographic-mass-data-set",
+        "csv_file": "Cleaned_data.csv",
+        "label": "5",
+        "model": "DecisionTreeClassifier",
+        "task_name": "overratedgman_mammographic-mass-data-set_DecisionTreeClassifier_5"
+    },
+    "217": {
+        "dataset": "pankajjsh06_ibm-watson-marketing-customer-value-data",
+        "csv_file": "WA_Fn-UseC_-Marketing-Customer-Value-Analysis.csv",
+        "label": "3",
+        "model": "DecisionTreeClassifier",
+        "task_name": "pankajjsh06_ibm-watson-marketing-customer-value-data_DecisionTreeClassifier_3"
+    },
+    "218": {
+        "dataset": "paresh2047_uci-semcom",
+        "csv_file": "uci-secom.csv",
+        "label": "591",
+        "model": "RandomForestClassifier",
+        "task_name": "paresh2047_uci-semcom_RandomForestClassifier_591"
+    },
+    "219": {
+        "dataset": "patelprashant_employee-attrition",
+        "csv_file": "WA_Fn-UseC_-HR-Employee-Attrition.csv",
+        "label": "1",
+        "model": "LogisticRegression",
+        "task_name": "patelprashant_employee-attrition_LogisticRegression_1"
+    },
+    "220": {
+        "dataset": "pavansubhasht_ibm-hr-analytics-attrition-dataset",
+        "csv_file": "WA_Fn-UseC_-HR-Employee-Attrition.csv",
+        "label": "1",
+        "model": "LogisticRegression",
+        "task_name": "pavansubhasht_ibm-hr-analytics-attrition-dataset_LogisticRegression_1"
+    },
+    "221": {
+        "dataset": "piyushgoyal443_red-wine-dataset",
+        "csv_file": "wineQualityReds.csv",
+        "label": "12",
+        "model": "RandomForestClassifier",
+        "task_name": "piyushgoyal443_red-wine-dataset_RandomForestClassifier_12"
+    },
+    "222": {
+        "dataset": "prakrutchauhan_indian-candidates-for-general-election-2019",
+        "csv_file": "LS_2.0.csv",
+        "label": "3",
+        "model": "KNeighborsClassifier",
+        "task_name": "prakrutchauhan_indian-candidates-for-general-election-2019_KNeighborsClassifier_3"
+    },
+    "223": {
+        "dataset": "predicting-a-pulsar-star",
+        "csv_file": "pulsar_stars.csv",
+        "label": "8",
+        "model": "DecisionTreeClassifier",
+        "task_name": "predicting-a-pulsar-star_DecisionTreeClassifier_8"
+    },
+    "224": {
+        "dataset": "primaryobjects_voicegender",
+        "csv_file": "voice.csv",
+        "label": "20",
+        "model": "SVC",
+        "task_name": "primaryobjects_voicegender_SVC_20"
+    },
+    "225": {
+        "dataset": "pritech_vehicle-silhouettes",
+        "csv_file": "vehicle.csv",
+        "label": "18",
+        "model": "SVC",
+        "task_name": "pritech_vehicle-silhouettes_SVC_18"
+    },
+    "226": {
+        "dataset": "prkukunoor_TitanicDataset",
+        "csv_file": "titanic_data.csv",
+        "label": "1",
+        "model": "RandomForestClassifier",
+        "task_name": "prkukunoor_TitanicDataset_RandomForestClassifier_1"
+    },
+    "227": {
+        "dataset": "pyim59_pyms-diabete",
+        "csv_file": "diabete.csv",
+        "label": "8",
+        "model": "LogisticRegression",
+        "task_name": "pyim59_pyms-diabete_LogisticRegression_8"
+    },
+    "228": {
+        "dataset": "raghupalem_bill_authentication",
+        "csv_file": "bill_authentication.csv",
+        "label": "4",
+        "model": "RandomForestClassifier",
+        "task_name": "raghupalem_bill_authentication_RandomForestClassifier_4"
+    },
+    "229": {
+        "dataset": "rahulsah06_machine-learning-for-diabetes-with-python",
+        "csv_file": "diabetes_data.csv",
+        "label": "8",
+        "model": "RandomForestClassifier",
+        "task_name": "rahulsah06_machine-learning-for-diabetes-with-python_RandomForestClassifier_8"
+    },
+    "230": {
+        "dataset": "rainbowgirl_clustering-categorical-peoples-interests",
+        "csv_file": "kaggle_Interests_group.csv",
+        "label": "0",
+        "model": "KNeighborsClassifier",
+        "task_name": "rainbowgirl_clustering-categorical-peoples-interests_KNeighborsClassifier_0"
+    },
+    "231": {
+        "dataset": "raipiyush558_social-network-ad",
+        "csv_file": "Social_Network_Ads.csv",
+        "label": "4",
+        "model": "SVC",
+        "task_name": "raipiyush558_social-network-ad_SVC_4"
+    },
+    "232": {
+        "dataset": "rajacsp_toronto-apartment-price",
+        "csv_file": "Toronto_apartment_rentals_2018.csv",
+        "label": "6",
+        "model": "DecisionTreeClassifier",
+        "task_name": "rajacsp_toronto-apartment-price_DecisionTreeClassifier_6"
+    },
+    "233": {
+        "dataset": "rajansharma780_vehicle",
+        "csv_file": "vehicle.csv",
+        "label": "18",
+        "model": "SVC",
+        "task_name": "rajansharma780_vehicle_SVC_18"
+    },
+    "234": {
+        "dataset": "rakeshrau_social-network-ads",
+        "csv_file": "Social_Network_Ads.csv",
+        "label": "4",
+        "model": "LogisticRegression",
+        "task_name": "rakeshrau_social-network-ads_LogisticRegression_4"
+    },
+    "235": {
+        "dataset": "ranand60_binaryclassification",
+        "csv_file": "data.csv",
+        "label": "0",
+        "model": "RandomForestClassifier",
+        "task_name": "ranand60_binaryclassification_RandomForestClassifier_0"
+    },
+    "236": {
+        "dataset": "ravijaiswal_empdataset",
+        "csv_file": "WA_Fn-UseC_-HR-Employee-Attrition.csv",
+        "label": "1",
+        "model": "LogisticRegression",
+        "task_name": "ravijaiswal_empdataset_LogisticRegression_1"
+    },
+    "237": {
+        "dataset": "ravijonnalagadda_capstone-car-accident-serveity",
+        "csv_file": "Data_Collisions.csv",
+        "label": "13",
+        "model": "KNeighborsClassifier",
+        "task_name": "ravijonnalagadda_capstone-car-accident-serveity_KNeighborsClassifier_13"
+    },
+    "238": {
+        "dataset": "red-wine-quality-cortez-et-al-2009",
+        "csv_file": "winequality-red.csv",
+        "label": "11",
+        "model": "KNeighborsClassifier",
+        "task_name": "red-wine-quality-cortez-et-al-2009_KNeighborsClassifier_11"
+    },
+    "239": {
+        "dataset": "reshmaraja_titanic-datasets",
+        "csv_file": "titanic.csv",
+        "label": "1",
+        "model": "DecisionTreeClassifier",
+        "task_name": "reshmaraja_titanic-datasets_DecisionTreeClassifier_1"
+    },
+    "240": {
+        "dataset": "residentmario_ramen-ratings",
+        "csv_file": "ramen-ratings.csv",
+        "label": "1",
+        "model": "RandomForestClassifier",
+        "task_name": "residentmario_ramen-ratings_RandomForestClassifier_1"
+    },
+    "241": {
+        "dataset": "richardluo28_unsw-data-intro",
+        "csv_file": "iris.csv",
+        "label": "4",
+        "model": "LogisticRegression",
+        "task_name": "richardluo28_unsw-data-intro_LogisticRegression_4"
+    },
+    "242": {
+        "dataset": "rishal005_loanapproval",
+        "csv_file": "train.csv",
+        "label": "12",
+        "model": "KNeighborsClassifier",
+        "task_name": "rishal005_loanapproval_KNeighborsClassifier_12"
+    },
+    "243": {
+        "dataset": "rishidamarla_heart-disease-prediction",
+        "csv_file": "Heart_Disease_Prediction.csv",
+        "label": "13",
+        "model": "KNeighborsClassifier",
+        "task_name": "rishidamarla_heart-disease-prediction_KNeighborsClassifier_13"
+    },
+    "244": {
+        "dataset": "ritesaluja_bank-note-authentication-uci-data",
+        "csv_file": "BankNote_Authentication.csv",
+        "label": "4",
+        "model": "RandomForestClassifier",
+        "task_name": "ritesaluja_bank-note-authentication-uci-data_RandomForestClassifier_4"
+    },
+    "245": {
+        "dataset": "robjan_ph-recognition",
+        "csv_file": "ph-data.csv",
+        "label": "3",
+        "model": "RandomForestClassifier",
+        "task_name": "robjan_ph-recognition_RandomForestClassifier_3"
+    },
+    "246": {
+        "dataset": "rodolfomendes_abalone-dataset",
+        "csv_file": "abalone.csv",
+        "label": "8",
+        "model": "SVC",
+        "task_name": "rodolfomendes_abalone-dataset_SVC_8"
+    },
+    "247": {
+        "dataset": "rohitsingh24_diabetes",
+        "csv_file": "diabetes.csv",
+        "label": "8",
+        "model": "LogisticRegression",
+        "task_name": "rohitsingh24_diabetes_LogisticRegression_8"
+    },
+    "248": {
+        "dataset": "rohitsingh24_loan-prediction",
+        "csv_file": "train.csv",
+        "label": "12",
+        "model": "KNeighborsClassifier",
+        "task_name": "rohitsingh24_loan-prediction_KNeighborsClassifier_12"
+    },
+    "249": {
+        "dataset": "ronitf_heart-disease-uci",
+        "csv_file": "heart.csv",
+        "label": "13",
+        "model": "LogisticRegression",
+        "task_name": "ronitf_heart-disease-uci_LogisticRegression_13"
+    },
+    "250": {
+        "dataset": "roshansharma_employee-analysis",
+        "csv_file": "employee.csv",
+        "label": "1",
+        "model": "LogisticRegression",
+        "task_name": "roshansharma_employee-analysis_LogisticRegression_1"
+    },
+    "251": {
+        "dataset": "roshansharma_insurance-claim",
+        "csv_file": "insurance_claims.csv",
+        "label": "38",
+        "model": "RandomForestClassifier",
+        "task_name": "roshansharma_insurance-claim_RandomForestClassifier_38"
+    },
+    "252": {
+        "dataset": "rounakbanik_pokemon",
+        "csv_file": "pokemon.csv",
+        "label": "40",
+        "model": "LogisticRegression",
+        "task_name": "rounakbanik_pokemon_LogisticRegression_40"
+    },
+    "253": {
+        "dataset": "rouseguy_bankbalanced",
+        "csv_file": "bank.csv",
+        "label": "16",
+        "model": "RandomForestClassifier",
+        "task_name": "rouseguy_bankbalanced_RandomForestClassifier_16"
+    },
+    "254": {
+        "dataset": "roustekbio_breast-cancer-csv",
+        "csv_file": "breastCancer.csv",
+        "label": "10",
+        "model": "LogisticRegression",
+        "task_name": "roustekbio_breast-cancer-csv_LogisticRegression_10"
+    },
+    "255": {
+        "dataset": "rtatman_chocolate-bar-ratings",
+        "csv_file": "flavors_of_cacao.csv",
+        "label": "5",
+        "model": "RandomForestClassifier",
+        "task_name": "rtatman_chocolate-bar-ratings_RandomForestClassifier_5"
+    },
+    "256": {
+        "dataset": "rtatman_did-it-rain-in-seattle-19482017",
+        "csv_file": "seattleWeather_1948-2017.csv",
+        "label": "4",
+        "model": "KNeighborsClassifier",
+        "task_name": "rtatman_did-it-rain-in-seattle-19482017_KNeighborsClassifier_4"
+    },
+    "257": {
+        "dataset": "ruiromanini_mtcars",
+        "csv_file": "mtcars.csv",
+        "label": "9",
+        "model": "KNeighborsClassifier",
+        "task_name": "ruiromanini_mtcars_KNeighborsClassifier_9"
+    },
+    "258": {
+        "dataset": "rush4ratio_video-game-sales-with-ratings",
+        "csv_file": "Video_Games_Sales_as_at_22_Dec_2016.csv",
+        "label": "15",
+        "model": "DecisionTreeClassifier",
+        "task_name": "rush4ratio_video-game-sales-with-ratings_DecisionTreeClassifier_15"
+    },
+    "259": {
+        "dataset": "ruslankl_mice-protein-expression",
+        "csv_file": "Data_Cortex_Nuclear.csv",
+        "label": "81",
+        "model": "KNeighborsClassifier",
+        "task_name": "ruslankl_mice-protein-expression_KNeighborsClassifier_81"
+    },
+    "260": {
+        "dataset": "sabinhashmi_sigma-cab-price-surge",
+        "csv_file": "train.csv",
+        "label": "13",
+        "model": "RandomForestClassifier",
+        "task_name": "sabinhashmi_sigma-cab-price-surge_RandomForestClassifier_13"
+    },
+    "261": {
+        "dataset": "sachinsharma1123_performance-prediction",
+        "csv_file": "summary.csv",
+        "label": "20",
+        "model": "LogisticRegression",
+        "task_name": "sachinsharma1123_performance-prediction_LogisticRegression_20"
+    },
+    "262": {
+        "dataset": "sajidsaifi_prostate-cancer",
+        "csv_file": "Prostate_Cancer.csv",
+        "label": "1",
+        "model": "KNeighborsClassifier",
+        "task_name": "sajidsaifi_prostate-cancer_KNeighborsClassifier_1"
+    },
+    "263": {
+        "dataset": "sammy123_lower-back-pain-symptoms-dataset",
+        "csv_file": "Dataset_spine.csv",
+        "label": "12",
+        "model": "LogisticRegression",
+        "task_name": "sammy123_lower-back-pain-symptoms-dataset_LogisticRegression_12"
+    },
+      "264": {
+        "dataset": "sajidvali_loan-prediction",
+        "csv_file": "loan-prediction.csv",
+        "label": "12",
+        "model": "DecisionTreeClassifier",
+        "task_name": "sajidvali_loan-prediction_DecisionTreeClassifier_12"
+    },
+    "265": {
+        "dataset": "saptarsi_breastcancer",
+        "csv_file": "breastcancer.csv",
+        "label": "10",
+        "model": "LogisticRegression",
+        "task_name": "saptarsi_breastcancer_LogisticRegression_10"
+    },
+    "266": {
+        "dataset": "saurabh00007_diabetescsv",
+        "csv_file": "diabetes.csv",
+        "label": "8",
+        "model": "RandomForestClassifier",
+        "task_name": "saurabh00007_diabetescsv_RandomForestClassifier_8"
+    },
+    "267": {
+        "dataset": "saurav9786_cardiogoodfitness",
+        "csv_file": "CardioGoodFitness.csv",
+        "label": "0",
+        "model": "KNeighborsClassifier",
+        "task_name": "saurav9786_cardiogoodfitness_KNeighborsClassifier_0"
+    },
+    "268": {
+        "dataset": "sazid28_diabetes",
+        "csv_file": "diabetes.csv",
+        "label": "8",
+        "model": "DecisionTreeClassifier",
+        "task_name": "sazid28_diabetes_DecisionTreeClassifier_8"
+    },
+    "269": {
+        "dataset": "sazid28_irisdata",
+        "csv_file": "Iris.csv",
+        "label": "5",
+        "model": "KNeighborsClassifier",
+        "task_name": "sazid28_irisdata_KNeighborsClassifier_5"
+    },
+    "270": {
+        "dataset": "sdhilip_nutrient-analysis-of-pizzas",
+        "csv_file": "Pizza.csv",
+        "label": "0",
+        "model": "DecisionTreeClassifier",
+        "task_name": "sdhilip_nutrient-analysis-of-pizzas_DecisionTreeClassifier_0"
+    },
+    "271": {
+        "dataset": "sefakocakalay_diabets",
+        "csv_file": "diabetes.csv",
+        "label": "8",
+        "model": "SVC",
+        "task_name": "sefakocakalay_diabets_SVC_8"
+    },
+    "272": {
+        "dataset": "serpilturanyksel_adult-income",
+        "csv_file": "adult11.csv",
+        "label": "14",
+        "model": "LogisticRegression",
+        "task_name": "serpilturanyksel_adult-income_LogisticRegression_14"
+    },
+    "273": {
+        "dataset": "sh6147782_winequalityred",
+        "csv_file": "winequality-red.csv",
+        "label": "11",
+        "model": "SVC",
+        "task_name": "sh6147782_winequalityred_SVC_11"
+    },
+    "274": {
+        "dataset": "shainy_twitter-reviews-for-emotion-analysis",
+        "csv_file": "data.csv",
+        "label": "3",
+        "model": "DecisionTreeClassifier",
+        "task_name": "shainy_twitter-reviews-for-emotion-analysis_DecisionTreeClassifier_3"
+    },
+    "275": {
+        "dataset": "sharmavasundhara_absenteeism-data",
+        "csv_file": "absenteeism_data.csv",
+        "label": "11",
+        "model": "LogisticRegression",
+        "task_name": "sharmavasundhara_absenteeism-data_LogisticRegression_11"
+    },
+    "276": {
+        "dataset": "shashank3297_bank-personal",
+        "csv_file": "Bank_Personal_Loan_Modelling.csv",
+        "label": "9",
+        "model": "KNeighborsClassifier",
+        "task_name": "shashank3297_bank-personal_KNeighborsClassifier_9"
+    },
+    "277": {
+        "dataset": "shashank544653201_redwinequality",
+        "csv_file": "datasets_4458_8204_winequality-red.csv",
+        "label": "11",
+        "model": "SVC",
+        "task_name": "shashank544653201_redwinequality_SVC_11"
+    },
+    "278": {
+        "dataset": "shivam1901_pulsar-star",
+        "csv_file": "pulsar_stars.csv",
+        "label": "8",
+        "model": "SVC",
+        "task_name": "shivam1901_pulsar-star_SVC_8"
+    },
+    "279": {
+        "dataset": "shivasandeep_dataset",
+        "csv_file": "advertising.csv",
+        "label": "9",
+        "model": "LogisticRegression",
+        "task_name": "shivasandeep_dataset_LogisticRegression_9"
+    },
+    "280": {
+        "dataset": "shrutimechlearn_churn-modelling",
+        "csv_file": "Churn_Modelling.csv",
+        "label": "13",
+        "model": "RandomForestClassifier",
+        "task_name": "shrutimechlearn_churn-modelling_RandomForestClassifier_13"
+    },
+    "281": {
+        "dataset": "shubh0799_churn-modelling",
+        "csv_file": "Churn_Modelling.csv",
+        "label": "13",
+        "model": "DecisionTreeClassifier",
+        "task_name": "shubh0799_churn-modelling_DecisionTreeClassifier_13"
+    },
+    "282": {
+        "dataset": "shubham9696_dectecting-phishing-website-using-machine-learning",
+        "csv_file": "dataset.csv",
+        "label": "31",
+        "model": "RandomForestClassifier",
+        "task_name": "shubham9696_dectecting-phishing-website-using-machine-learning_RandomForestClassifier_31"
+    },
+    "283": {
+        "dataset": "shuchirb_ibm-attrition-analysis",
+        "csv_file": "WA_Fn-UseC_-HR-Employee-Attrition.csv",
+        "label": "1",
+        "model": "LogisticRegression",
+        "task_name": "shuchirb_ibm-attrition-analysis_LogisticRegression_1"
+    },
+    "284": {
+        "dataset": "shuofxz_titanic-machine-learning-from-disaster",
+        "csv_file": "train.csv",
+        "label": "1",
+        "model": "RandomForestClassifier",
+        "task_name": "shuofxz_titanic-machine-learning-from-disaster_RandomForestClassifier_1"
+    },
+    "285": {
+        "dataset": "shwetabh123_mall-customers",
+        "csv_file": "Mall_Customers.csv",
+        "label": "1",
+        "model": "RandomForestClassifier",
+        "task_name": "shwetabh123_mall-customers_RandomForestClassifier_1"
+    },
+    "286": {
+        "dataset": "siboli1_snw2018",
+        "csv_file": "Social_Network_Ads.csv",
+        "label": "4",
+        "model": "KNeighborsClassifier",
+        "task_name": "siboli1_snw2018_KNeighborsClassifier_4"
+    },
+    "287": {
+        "dataset": "sivaram1987_annchurn-modelling",
+        "csv_file": "Churn_Modelling.csv",
+        "label": "10",
+        "model": "KNeighborsClassifier",
+        "task_name": "sivaram1987_annchurn-modelling_KNeighborsClassifier_10"
+    },
+    "288": {
+        "dataset": "sivaram1987_logistic-socialnetworkads",
+        "csv_file": "Social_Network_Ads.csv",
+        "label": "4",
+        "model": "LogisticRegression",
+        "task_name": "sivaram1987_logistic-socialnetworkads_LogisticRegression_4"
+    },
+    "289": {
+        "dataset": "sloan-digital-sky-survey",
+        "csv_file": "Skyserver_SQL2_27_2018 6_51_39 PM.csv",
+        "label": "13",
+        "model": "RandomForestClassifier",
+        "task_name": "sloan-digital-sky-survey_RandomForestClassifier_13"
+    },
+    "290": {
+        "dataset": "social-network-ads",
+        "csv_file": "Social_Network_Ads.csv",
+        "label": "4",
+        "model": "LogisticRegression",
+        "task_name": "social-network-ads_LogisticRegression_4"
+    },
+    "291": {
+        "dataset": "somesh24_spambase",
+        "csv_file": "spambase_csv.csv",
+        "label": "57",
+        "model": "LogisticRegression",
+        "task_name": "somesh24_spambase_LogisticRegression_57"
+    },
+    "292": {
+        "dataset": "somnathpathak_bank-personal-loan-modelling",
+        "csv_file": "Bank_Personal_Loan_Modelling.csv",
+        "label": "9",
+        "model": "SVC",
+        "task_name": "somnathpathak_bank-personal-loan-modelling_SVC_9"
+    },
+    "293": {
+        "dataset": "sonalidasgupta95_churn-prediction-of-bank-customers",
+        "csv_file": "Churn_Modelling.csv",
+        "label": "13",
+        "model": "RandomForestClassifier",
+        "task_name": "sonalidasgupta95_churn-prediction-of-bank-customers_RandomForestClassifier_13"
+    },
+    "294": {
+        "dataset": "souravbhattacharya10_irisdataset",
+        "csv_file": "Iris.csv",
+        "label": "4",
+        "model": "LogisticRegression",
+        "task_name": "souravbhattacharya10_irisdataset_LogisticRegression_4"
+    },
+    "295": {
+        "dataset": "spotifyclassification",
+        "csv_file": "data.csv",
+        "label": "14",
+        "model": "RandomForestClassifier",
+        "task_name": "spotifyclassification_RandomForestClassifier_14"
+    },
+    "296": {
+        "dataset": "sriharipramod_bank-loan-classification",
+        "csv_file": "UniversalBank.csv",
+        "label": "9",
+        "model": "SVC",
+        "task_name": "sriharipramod_bank-loan-classification_SVC_9"
+    },
+    "297": {
+        "dataset": "srikanthmalyala_cristiano7",
+        "csv_file": "data.csv",
+        "label": "10",
+        "model": "RandomForestClassifier",
+        "task_name": "srikanthmalyala_cristiano7_RandomForestClassifier_10"
+    },
+    "298": {
+        "dataset": "starcraft-ii-replay-analysis",
+        "csv_file": "starcraft.csv",
+        "label": "1",
+        "model": "RandomForestClassifier",
+        "task_name": "starcraft-ii-replay-analysis_RandomForestClassifier_1"
+    },
+    "299": {
+        "dataset": "steveahn_memory-test-on-drugged-islanders-data",
+        "csv_file": "Islander_data.csv",
+        "label": "3",
+        "model": "RandomForestClassifier",
+        "task_name": "steveahn_memory-test-on-drugged-islanders-data_RandomForestClassifier_3"
+    },
+    "300": {
+        "dataset": "student-grade-prediction",
+        "csv_file": "student-mat.csv",
+        "label": "32",
+        "model": "DecisionTreeClassifier",
+        "task_name": "student-grade-prediction_DecisionTreeClassifier_32"
+    },
+    "301": {
+        "dataset": "suchitgupta60_imdb-data",
+        "csv_file": "movie_metadata.csv",
+        "label": "27",
+        "model": "RandomForestClassifier",
+        "task_name": "suchitgupta60_imdb-data_RandomForestClassifier_27"
+    },
+    "302": {
+        "dataset": "sudalairajkumar_indian-startup-funding",
+        "csv_file": "startup_funding.csv",
+        "label": "7",
+        "model": "RandomForestClassifier",
+        "task_name": "sudalairajkumar_indian-startup-funding_RandomForestClassifier_7"
+    },
+    "303": {
+        "dataset": "sulianova_cardiovascular-disease-dataset",
+        "csv_file": "cardio_train.csv",
+        "label": "12",
+        "model": "KNeighborsClassifier",
+        "task_name": "sulianova_cardiovascular-disease-dataset_KNeighborsClassifier_12"
+    },
+    "304": {
+        "dataset": "sundarml_transport-speed-violation",
+        "csv_file": "prm_1_2.csv",
+        "label": "6",
+        "model": "KNeighborsClassifier",
+        "task_name": "sundarml_transport-speed-violation_KNeighborsClassifier_6"
+    },
+    "305": {
+        "dataset": "syedtouqeer_classification-decision-tree-classifier",
+        "csv_file": "Social_Network_Ads.csv",
+        "label": "4",
+        "model": "DecisionTreeClassifier",
+        "task_name": "syedtouqeer_classification-decision-tree-classifier_DecisionTreeClassifier_4"
+    },
+    "306": {
+        "dataset": "tanay0948_churndata1",
+        "csv_file": "Churn_Modelling.csv",
+        "label": "13",
+        "model": "LogisticRegression",
+        "task_name": "tanay0948_churndata1_LogisticRegression_13"
+    },
+    "307": {
+        "dataset": "tbyrnes_advertising",
+        "csv_file": "advertising.csv",
+        "label": "9",
+        "model": "KNeighborsClassifier",
+        "task_name": "tbyrnes_advertising_KNeighborsClassifier_9"
+    },
+    "308": {
+        "dataset": "tedllh_titanic-train",
+        "csv_file": "titanic_train.csv",
+        "label": "1",
+        "model": "LogisticRegression",
+        "task_name": "tedllh_titanic-train_LogisticRegression_1"
+    },
+    "309": {
+        "dataset": "teertha_personal-loan-modeling",
+        "csv_file": "Bank_Personal_Loan_Modelling.csv",
+        "label": "9",
+        "model": "RandomForestClassifier",
+        "task_name": "teertha_personal-loan-modeling_RandomForestClassifier_9"
+    },
+    "310": {
+        "dataset": "telco-customer-churn",
+        "csv_file": "WA_Fn-UseC_-Telco-Customer-Churn.csv",
+        "label": "20",
+        "model": "RandomForestClassifier",
+        "task_name": "telco-customer-churn_RandomForestClassifier_20"
+    },
+    "311": {
+        "dataset": "telecom-churn-ibm-watson",
+        "csv_file": "watson.csv",
+        "label": "20",
+        "model": "RandomForestClassifier",
+        "task_name": "telecom-churn-ibm-watson_RandomForestClassifier_20"
+    },
+    "312": {
+        "dataset": "thomaskonstantin_the-chasegame-show-israel-episode-data",
+        "csv_file": "The_Chase__Dataset.csv",
+        "label": "22",
+        "model": "RandomForestClassifier",
+        "task_name": "thomaskonstantin_the-chasegame-show-israel-episode-data_RandomForestClassifier_22"
+    },
+    "313": {
+        "dataset": "titanic-train",
+        "csv_file": "titanic_train.csv",
+        "label": "1",
+        "model": "LogisticRegression",
+        "task_name": "titanic-train_LogisticRegression_1"
+    },
+    "314": {
+        "dataset": "toramky_automobile-dataset",
+        "csv_file": "Automobile_data.csv",
+        "label": "0",
+        "model": "RandomForestClassifier",
+        "task_name": "toramky_automobile-dataset_RandomForestClassifier_0"
+    },
+    "315": {
+        "dataset": "tug004_3wine-classification-dataset",
+        "csv_file": "wine.csv",
+        "label": "0",
+        "model": "KNeighborsClassifier",
+        "task_name": "tug004_3wine-classification-dataset_KNeighborsClassifier_0"
+    },
+    "316": {
+        "dataset": "tularamsahu_kaggle-join-data-with-preproces",
+        "csv_file": "data.csv",
+        "label": "1",
+        "model": "KNeighborsClassifier",
+        "task_name": "tularamsahu_kaggle-join-data-with-preproces_KNeighborsClassifier_1"
+    },
+    "317": {
+        "dataset": "udhhav_cancer",
+        "csv_file": "Data.csv",
+        "label": "10",
+        "model": "DecisionTreeClassifier",
+        "task_name": "udhhav_cancer_DecisionTreeClassifier_10"
+    },
+    "318": {
+        "dataset": "ukveteran_survival-from-malignant-melanoma",
+        "csv_file": "melanoma.csv",
+        "label": "2",
+        "model": "LogisticRegression",
+        "task_name": "ukveteran_survival-from-malignant-melanoma_LogisticRegression_2"
+    },
+    "319": {
+        "dataset": "upadorprofzs_credit-risk",
+        "csv_file": "original.csv",
+        "label": "4",
+        "model": "KNeighborsClassifier",
+        "task_name": "upadorprofzs_credit-risk_KNeighborsClassifier_4"
+    },
+    "320": {
+        "dataset": "users-of-a-social-networks-who-bought-suv",
+        "csv_file": "Social_Network_Ads.csv",
+        "label": "4",
+        "model": "KNeighborsClassifier",
+        "task_name": "users-of-a-social-networks-who-bought-suv_KNeighborsClassifier_4"
+    },
+    "321": {
+        "dataset": "utsav15_social-network-ads",
+        "csv_file": "Social_Network_Ads.csv",
+        "label": "4",
+        "model": "LogisticRegression",
+        "task_name": "utsav15_social-network-ads_LogisticRegression_4"
+    },
+    "322": {
+        "dataset": "vijayandrew_us-heart-patients",
+        "csv_file": "US_Heart_Patients.csv",
+        "label": "15",
+        "model": "LogisticRegression",
+        "task_name": "vijayandrew_us-heart-patients_LogisticRegression_15"
+    },
+    "323": {
+        "dataset": "vijayashreer_food-preferences",
+        "csv_file": "Food_Preference.csv",
+        "label": "4",
+        "model": "LogisticRegression",
+        "task_name": "vijayashreer_food-preferences_LogisticRegression_4"
+    },
+    "324": {
+        "dataset": "vikash1a2b3c_irish-dataset",
+        "csv_file": "irish.csv",
+        "label": "4",
+        "model": "SVC",
+        "task_name": "vikash1a2b3c_irish-dataset_SVC_4"
+    },
+    "325": {
+        "dataset": "vikasukani_diabetes-data-set",
+        "csv_file": "diabetes-dataset.csv",
+        "label": "8",
+        "model": "KNeighborsClassifier",
+        "task_name": "vikasukani_diabetes-data-set_KNeighborsClassifier_8"
+    },
+    "326": {
+        "dataset": "vikramnichat_logistic-regressiontitanic",
+        "csv_file": "titanic_train.csv",
+        "label": "1",
+        "model": "LogisticRegression",
+        "task_name": "vikramnichat_logistic-regressiontitanic_LogisticRegression_1"
+    },
+    "327": {
+        "dataset": "vineyprotocol_diabetes",
+        "csv_file": "diabetes.csv",
+        "label": "8",
+        "model": "DecisionTreeClassifier",
+        "task_name": "vineyprotocol_diabetes_DecisionTreeClassifier_8"
+    },
+    "328": {
+        "dataset": "vinod00725_svm-classification",
+        "csv_file": "UniversalBank.csv",
+        "label": "13",
+        "model": "LogisticRegression",
+        "task_name": "vinod00725_svm-classification_LogisticRegression_13"
+    },
+    "329": {
+        "dataset": "vkj284_playercsv",
+        "csv_file": "player.csv",
+        "label": "5",
+        "model": "DecisionTreeClassifier",
+        "task_name": "vkj284_playercsv_DecisionTreeClassifier_5"
+    },
+    "330": {
+        "dataset": "vmalyi_run-or-walk",
+        "csv_file": "dataset.csv",
+        "label": "4",
+        "model": "RandomForestClassifier",
+        "task_name": "vmalyi_run-or-walk_RandomForestClassifier_4"
+    },
+    "331": {
+        "dataset": "voicegender",
+        "csv_file": "voice.csv",
+        "label": "20",
+        "model": "LogisticRegression",
+        "task_name": "voicegender_LogisticRegression_20"
+    },
+    "332": {
+        "dataset": "volodymyrgavrysh_heart-disease",
+        "csv_file": "heart.csv",
+        "label": "13",
+        "model": "RandomForestClassifier",
+        "task_name": "volodymyrgavrysh_heart-disease_RandomForestClassifier_13"
+    },
+    "333": {
+        "dataset": "wajidsaw_detection-of-parkinson-disease",
+        "csv_file": "parkinsons.csv",
+        "label": "17",
+        "model": "RandomForestClassifier",
+        "task_name": "wajidsaw_detection-of-parkinson-disease_RandomForestClassifier_17"
+    },
+    "334": {
+        "dataset": "wanglaiqi_pimaindiansdiabetesdata",
+        "csv_file": "pima-indians-diabetes.data.csv",
+        "label": "8",
+        "model": "DecisionTreeClassifier",
+        "task_name": "wanglaiqi_pimaindiansdiabetesdata_DecisionTreeClassifier_8"
+    },
+    "335": {
+        "dataset": "waseemk78_heart-disease-history",
+        "csv_file": "heart.csv",
+        "label": "13",
+        "model": "RandomForestClassifier",
+        "task_name": "waseemk78_heart-disease-history_RandomForestClassifier_13"
+    },
+    "336": {
+        "dataset": "wduckett_moneyball-mlb-stats-19622012",
+        "csv_file": "baseball.csv",
+        "label": "9",
+        "model": "SVC",
+        "task_name": "wduckett_moneyball-mlb-stats-19622012_SVC_9"
+    },
+    "337": {
+        "dataset": "weather-dataset-rattle-package",
+        "csv_file": "weatherAUS.csv",
+        "label": "23",
+        "model": "RandomForestClassifier",
+        "task_name": "weather-dataset-rattle-package_RandomForestClassifier_23"
+    },
+    "338": {
+        "dataset": "wenruliu_adult-income-dataset",
+        "csv_file": "adult.csv",
+        "label": "14",
+        "model": "KNeighborsClassifier",
+        "task_name": "wenruliu_adult-income-dataset_KNeighborsClassifier_14"
+    },
+    "339": {
+        "dataset": "wine-pca",
+        "csv_file": "Wine.csv",
+        "label": "13",
+        "model": "LogisticRegression",
+        "task_name": "wine-pca_LogisticRegression_13"
+    },
+    "340": {
+        "dataset": "wisc-bc-data",
+        "csv_file": "wisc_bc_data.csv",
+        "label": "1",
+        "model": "SVC",
+        "task_name": "wisc-bc-data_SVC_1"
+    },
+    "341": {
+        "dataset": "wpncrh_marginal-revolution-blog-post-data",
+        "csv_file": "cleanedmrdata.csv",
+        "label": "0",
+        "model": "RandomForestClassifier",
+        "task_name": "wpncrh_marginal-revolution-blog-post-data_RandomForestClassifier_0"
+    },
+    "342": {
+        "dataset": "xAPI-Edu-Data",
+        "csv_file": "xAPI-Edu-Data.csv",
+        "label": "0",
+        "model": "DecisionTreeClassifier",
+        "task_name": "xAPI-Edu-Data_DecisionTreeClassifier_0"
+    },
+    "343": {
+        "dataset": "xwolf12_malicious-and-benign-websites",
+        "csv_file": "dataset.csv",
+        "label": "20",
+        "model": "LogisticRegression",
+        "task_name": "xwolf12_malicious-and-benign-websites_LogisticRegression_20"
+    },
+    "344": {
+        "dataset": "yashnaik12_heart-patients",
+        "csv_file": "US_Heart_Patients.csv",
+        "label": "15",
+        "model": "RandomForestClassifier",
+        "task_name": "yashnaik12_heart-patients_RandomForestClassifier_15"
+    },
+    "345": {
+        "dataset": "yersever_500-person-gender-height-weight-bodymassindex",
+        "csv_file": "500_Person_Gender_Height_Weight_Index.csv",
+        "label": "3",
+        "model": "KNeighborsClassifier",
+        "task_name": "yersever_500-person-gender-height-weight-bodymassindex_KNeighborsClassifier_3"
+    },
+    "346": {
+        "dataset": "yusufdede_lung-cancer-dataset",
+        "csv_file": "lung_cancer_examples.csv",
+        "label": "6",
+        "model": "RandomForestClassifier",
+        "task_name": "yusufdede_lung-cancer-dataset_RandomForestClassifier_6"
+    },
+    "347": {
+        "dataset": "zagarsuren_telecom-churn-ibm-watson",
+        "csv_file": "watson.csv",
+        "label": "20",
+        "model": "DecisionTreeClassifier",
+        "task_name": "zagarsuren_telecom-churn-ibm-watson_DecisionTreeClassifier_20"
+    },    "348": {
+        "dataset": "jessemostipak_hotel-booking-demand",
+        "csv_file": "hotel_bookings.csv",
+        "label": "1",
+        "model": "RandomForestClassifier",
+        "task_name": "---1---"
+    },
+    "349": {
+        "dataset": "naharrison_particle-identification-from-detector-responses",
+        "csv_file": "pid-5M.csv",
+        "label": "0",
+        "model": "RandomForestClassifier",
+        "task_name": "---2---"
+    },
+    "350": {
+        "dataset": "nsharan_h-1b-visa",
+        "csv_file": "h1b_kaggle.csv",
+        "label": "0",
+        "model": "LogisticRegression",
+        "task_name": "---3---"
+    },
+    "351": {
+        "dataset": "warriorgraph_ddos-features-ids-2017-fivedays",
+        "csv_file": "alldays_ddos.csv",
+        "label": "5",
+        "model": "KNeighborsClassifier",
+        "task_name": "---4---"
+    }
+
+
+    }

@@ -1,7 +1,7 @@
 from typing import List
 
-from ctxpipe.env.metric import *
-from ctxpipe.env.primitives import *
+from flowpipe.env.metric import *
+from flowpipe.env.primitives import *
 import env
 
 class NoOpPrimitive(Primitive):

@@ -1,0 +1,4 @@
+iteration	notebook_path	dataset_path	label_index	model	score
+760	Wine_classification	data/deepline_dataset/Wine_classification/data.csv	13	LogisticRegression	1.0
+770	Wine_classification	data/deepline_dataset/Wine_classification/data.csv	13	LogisticRegression	0.9860132971832694
+780	dermatology	data/deepline_dataset/dermatology/data.csv	34	LogisticRegression	0.972216786242685

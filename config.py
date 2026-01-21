@@ -8,9 +8,9 @@ import comp
 import deterministic
 import env
 import util
-from ctxpipe.env.metric import *
-from ctxpipe.env.primitives import *
-from ctxpipe.info import Info
+from flowpipe.env.metric import *
+from flowpipe.env.primitives import *
+from flowpipe.info import Info
 
 _info = None
 
@@ -38,7 +38,7 @@ def init():
         """load information files"""
         GlobalConfig.fold_length = math.ceil(
             len(GlobalConfig.classification_task_dic) / Config.k_fold
-        ) #  计算每一折的长度
+        ) #  Calculate the length of each fold
 
         with open(_info.task_index_path) as f: # test_index.json
             GlobalConfig.test_index = json.load(f)
@@ -51,27 +51,27 @@ def init():
         GlobalConfig.train_index=list(set(GlobalConfig.classification_task_dic.keys()))
         GlobalConfig.train_index.sort()
 
-        # 计算“全集”大小：任务 × 预测器 × 逻辑管道
+        # Calculate "Total Set" size: Tasks x Predictors x Logic Pipelines
         combos_total = (
                 len(GlobalConfig.train_index)
                 * len(comp.predictors)
-                * len(comp.lpipelines)  # ✅ 加上逻辑管道
+                * len(comp.lpipelines)  # ✅ Plus logic pipelines
         )
 
         if combos_total > 0:
-            # 仅当未显式指定时，给出合理默认
-            # ✅ 用 GFN 的 buffer_capacity 来估算每轮能承载的新轨迹数对应的组合上限
-            #   （经验上限：每个组合采 traj_per_combo 条 → 可承载的组合 ≈ buffer_capacity / traj_per_combo）
+            # Only give reasonable default if not explicitly specified
+            # ✅ Use GFN's buffer_capacity to estimate the upper limit of combinations for new trajectories per round
+            #   (Empirical limit: sample traj_per_combo per combo -> carriable combos ≈ buffer_capacity / traj_per_combo)
             if getattr(default_gfn_config, "combos_per_epoch", 0) in (0, None):
                 traj = max(1, default_gfn_config.traj_per_combo)
                 gfn_limit = max(1, default_gfn_config.buffer_capacity // traj)
-                # 给个保守目标：别超过全集，也别超过“缓冲可承载”的上限
+                # Give a conservative goal: don't exceed full set, nor "buffer carriable" limit
                 default_gfn_config.combos_per_epoch = min(combos_total, gfn_limit)
                 min_buf = default_gfn_config.combos_per_epoch * default_gfn_config.traj_per_combo * 5
                 if default_gfn_config.buffer_capacity < min_buf:
                     default_gfn_config.buffer_capacity = min_buf
 
-            # 如果用户没给 num_epochs，就按“覆盖一遍”的轮数推导（与确定性覆盖调度对齐）
+            # If user didn't provide num_epochs, infer from "cover once" rounds (aligned with deterministic coverage scheduling)
             if getattr(default_gfn_config, "num_epochs", 0) in (0, None):
                 C = max(1, default_gfn_config.combos_per_epoch)
                 default_gfn_config.num_epochs = math.ceil(combos_total / C)
@@ -96,12 +96,12 @@ class GlobalConfig:
 
     column_num = 100
 
-    step_timeout = 300 # 过期时间  测试时间可以时间长一点 训练300
-    component_step_timeout = 200  # 单个组件执行的超时时间，可根据需要调整
+    step_timeout = 300 # Expiration time. Testing time can be longer, training 300
+    component_step_timeout = 200  # Detailed timeout for single component, adjustable
 
     eps_decay = 2000
 
-    blank_reward = 0.0 # 空白奖励
+    blank_reward = 0.0 # Blank reward
     blank_rewards_str = (
         f"{blank_reward}" if blank_reward >= 0.0 else f"m{-blank_reward}"
     )
@@ -118,7 +118,7 @@ class GlobalConfig:
         ctxpipe_setup_name = "-3linear"
 
     # version = f"{'TEST_' if env.IS_TEST else ''}_{ctxpipe_setup_name}"
-    """ 更改version"""
+    """ Change version"""
     version = f"{'TEST_' if env.IS_TEST else ''}{VERSION}"
 
     exp_dir = util.abspath(env.exp_prefix, f"{version}")
@@ -140,7 +140,7 @@ class GlobalConfig:
     backpropagate_interval: int = 50 if not env.IS_TEST else 10
     checkpoint_interval: int = 200
 
-    column_feature_dim =  35   # 数据 特征
+    column_feature_dim =  35   # Data feature
     data_dim: int = column_num * column_feature_dim
 
     classification_task_dic = {}
@@ -177,15 +177,15 @@ class DQNConfig(GlobalConfig):
 
 
 class GFlowNetConfig(GlobalConfig):
-    # 定义 动作区间常量
+    # Define action interval constants
     LOGIC_ACTION_START = 0
-    LOGIC_ACTION_END = comp.num_lpipelines      # 不包含尾
+    LOGIC_ACTION_END = comp.num_lpipelines      # Exclusive of tail
     PRIM_ACTION_START = LOGIC_ACTION_END
-    # 站位
-    combos_per_epoch = 10               # 让 init() 来设置
-    num_epochs = 500                    # 让 init() 来设置 ,默认全覆盖一遍就是 0
+    # Placeholder
+    combos_per_epoch = 10               # Set by init()
+    num_epochs = 500                    # Set by init(), default covering once is 0
 
-    use_gfn = True            # 1) 新增开
+    use_gfn = True            # 1) New: Enable
     learning_rate = 5e-4
     hidden_dim = 512
     trajectory_batch_size = 16
@@ -194,25 +194,25 @@ class GFlowNetConfig(GlobalConfig):
     frames = 30000
     log_interval = 20
     checkpoint_interval = 20
-    # 块状训练节奏（推荐起点）
+    # Block training rhythm (recommended start)
     coverage_seed = deterministic.RANDOM_SEED
-    traj_per_combo = 8 # 每条轨迹采样多少次 -深度
+    traj_per_combo = 8 # How many times to sample per trajectory - Depth
     updates_per_combo = 1
-    failure_weight = 0.2 #  失败轨迹 权重
-    enable_reward_normalization = False  # 是否开启平滑
-    reward_norm_momentum = 0.05       # EMA 平滑系数
+    failure_weight = 0.2 # Failed trajectory weight
+    enable_reward_normalization = False  # Whether to enable smoothing
+    reward_norm_momentum = 0.05       # EMA smoothing coefficient
     reward_temperature =2.0
-    # 2) 统一动作空间：取所?Primitive gid 的最大�?+ 1
-    inference_samples = 3  # 增加推理时的采样次数
-    inference_temperature = 0.1  # 推理时的温度参数，更确定性
-    # 增加上下文信息
-    use_conditional_gfn: bool = True  #  条件 GFN
-    use_attention: bool = True  # 仅当 use_conditional_gfn=True 时生效
-    ctx_dim: int = 4096  # 与 LLM hidden_size 对齐
-    LLM_name: str = "Meta-Llama-3.1-8B"  # 用于日志/加载
-    use_learnable_ctx: bool = False  # 消融实验：使用可学习随机向量替代LLM embedding
+    # 2) Unified action space: max of all Primitive gids + 1
+    inference_samples = 3  # Increase samples during inference
+    inference_temperature = 0.1  # Temperature parameter during inference, more deterministic
+    # Add context information
+    use_conditional_gfn: bool = True  # Conditional GFN
+    use_attention: bool = True  # Only effective when use_conditional_gfn=True
+    ctx_dim: int = 4096  # Align with LLM hidden_size
+    LLM_name: str = "Meta-Llama-3.1-8B"  # For log/load
+    use_learnable_ctx: bool = False  # Ablation experiment: use learnable random vector instead of LLM embedding
 
-    # 新增：推理模式和 Top-N
+    # New: Inference mode and Top-N
     inference_mode = "sample"        # "sample" / "greedy" / "topn"
     inference_top_n = 3
 
@@ -226,17 +226,17 @@ class GFlowNetConfig(GlobalConfig):
     )
     action_dim = MAX_PRIM_GID + 1+comp.num_lpipelines
 
-    # 3) 状态维�?= 数据特征 + 各类 one-hot
+    # 3) State dim = Data dim + Various one-hot
     state_dim = (
         GlobalConfig.data_dim
         + len(comp.logic_pipeline_1)
         + comp.num_predictors
         + action_dim
-        + 1 # logic_selected_flag 逻辑管道是否被选择的标识符
+        + 1 # logic_selected_flag Identifier for whether logic pipeline is selected
         + comp.num_lpipelines  # logic choice one-hot
     )
 
-    # 修改第221行：
+    # Modify line 221:
     model_dir = util.abspath("models", f"{GlobalConfig.version}")
     device = env.DEVICE
 
@@ -253,5 +253,5 @@ default_agent_config = AgentConfig()
 
 
 
-CONFIG=default_agent_config # 测试
+CONFIG=default_agent_config # Test
 default_env_config = EnvConfig()
