@@ -18,7 +18,7 @@ FlowPipe achieves **SOTA performance** on standard data preparation benchmarks, 
 
 | Method              | DiffPrep (Acc) | DeepLine (Acc) | Inference Time (s) |
 | :------------------ | :------------: | :------------: | :----------------: |
-| DiffPrep            |                |                |                    |
+| DP-Flex            |       0.784         |       0.789         |          11148.911          |
 | HAIPipe-AI          |     0.760      |     0.801      |       22.195       |
 | CtxPipe             |     0.806      |     0.813      |       65.203       |
 | **FlowPipe (Ours)** |   **0.896**    |   **0.912**    |     **51.516**     |
@@ -86,8 +86,6 @@ FlowPipe utilizes **Llama-3.1-8B-Instruct** for semantic understanding.
 
 2. Place the model files in the `./LLM/LLMs` directory. The structure should look like this:
 
-   Plaintext
-
    ```
    ./LLM/LLMs/
    └── Llama-3.1-8B-Instruct/
@@ -152,7 +150,7 @@ We compare FlowPipe against the following state-of-the-art systems:
 | **DeepLine** | [yuvalhef/gym-deepline](https://github.com/yuvalhef/gym-deepline) | Python 3.6, TF 1.15         |
 | **HAIPipe**  | [ruc-datalab/Haipipe](https://github.com/ruc-datalab/Haipipe) | Python 3.8, Torch 1.10      |
 | **SAGA**     | [damslab/reproducibility](https://github.com/damslab/reproducibility) | OpenJDK 11                  |
-
+| **SwiftDP**  | [LiangweiLiBJTU/SwiftDP](https://github.com/LiangweiLiBJTU/SwiftDP.git)| Python 3.8, Torch 1.10|
 ------
 
 ## 📂 Repository Structure
@@ -164,5 +162,6 @@ We compare FlowPipe against the following state-of-the-art systems:
 - `deterministic.py`: Settings to ensure reproducibility.
 - `comp.py`: Core components, including models and algorithm implementations.
 - `util.py`: Helper functions for filesystem and memory management.
+
 
 
